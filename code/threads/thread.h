@@ -136,6 +136,17 @@ class Thread {
   public:
     int getUID() {return uid;}
     int getTID() {return tid;}
+    const char * getStatus() {
+        if(status == 0) {
+            return "JUST_CREATED";
+        } else if (status == 1) {
+            return "RUNNING";
+        } else if (status == 2) {
+            return "READY";
+        } else if (status == 3) {
+            return "BLOCKED";
+        }
+    }
 };
 
 // Magical machine-dependent routines, defined in switch.s

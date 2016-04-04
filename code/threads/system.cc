@@ -39,6 +39,7 @@ PostOffice *postOffice;
 #endif
 
 list<int> threadAllocator;
+bool enableTS;
 
 
 // External definition, to allow us to take a pointer to this function
@@ -85,6 +86,7 @@ Initialize(int argc, char **argv)
     int argCount;
     char* debugArgs = "";
     bool randomYield = FALSE;
+    enableTS = false;
 
     for(int i = 0; i < MAXTHREAD; ++i) {
         threadAllocator.push_back(i);
@@ -115,7 +117,9 @@ Initialize(int argc, char **argv)
 						// number generator
 	    randomYield = TRUE;
 	    argCount = 2;
-	}
+	} else if (!strcmp(*argv, "-ts")) {
+        enableTS = true;
+    }
 #ifdef USER_PROGRAM
 	if (!strcmp(*argv, "-s"))
 	    debugUserProg = TRUE;

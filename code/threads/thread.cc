@@ -36,6 +36,7 @@ using namespace std;
 //----------------------------------------------------------------------
 
 extern list<int> threadAllocator;
+extern bool enableTS;
 
 int allocateTID() {
     if(threadAllocator.empty()) {
@@ -192,6 +193,31 @@ Thread::Finish ()
 //
 // 	Similar to Thread::Sleep(), but a little different.
 //----------------------------------------------------------------------
+void TS_print(int arg) {
+    Thread *t = (Thread *) arg;
+    printf("Thread %s with threadID %d and userID %d %s\n", 
+                t->getName(), 
+                t->getTID(),
+                t->getUID(),
+                t->getStatus());
+}
+
+void TS() {
+    if(!enableTS) {
+        return;
+    }
+    printf("---------------TS-------------\n");
+    printf("Thread %s with threadID %d and userID %d %s\n", 
+                currentThread->getName(), 
+                currentThread->getTID(),
+                currentThread->getUID(),
+                currentThread->getStatus());
+    if(!scheduler->getReadyList()->IsEmpty()) {
+        scheduler->getReadyList()->Mapcar(TS_print);
+    }
+    printf("------------------------------\n");
+}
+
 
 void
 Thread::Yield ()
@@ -202,6 +228,8 @@ Thread::Yield ()
     ASSERT(this == currentThread);
     
     DEBUG('t', "Yielding thread \"%s\"\n", getName());
+
+    TS();
     
     nextThread = scheduler->FindNextToRun();
     if (nextThread != NULL) {
