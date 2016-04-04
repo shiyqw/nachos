@@ -7,6 +7,9 @@
 
 #include "copyright.h"
 #include "system.h"
+#include <list>
+
+using namespace std;
 
 // This defines *all* of the global data structures used by Nachos.
 // These are all initialized and de-allocated by this file.
@@ -34,6 +37,8 @@ Machine *machine;	// user program memory and registers
 #ifdef NETWORK
 PostOffice *postOffice;
 #endif
+
+list<int> threadAllocator;
 
 
 // External definition, to allow us to take a pointer to this function
@@ -162,6 +167,9 @@ Initialize(int argc, char **argv)
 #ifdef NETWORK
     postOffice = new PostOffice(netname, rely, 10);
 #endif
+    for(int i = 0; i < MAXTHREAD; ++i) {
+        threadAllocator.push_back(i);
+    }
 }
 
 //----------------------------------------------------------------------

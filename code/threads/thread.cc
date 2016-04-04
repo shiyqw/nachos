@@ -19,6 +19,9 @@
 #include "switch.h"
 #include "synch.h"
 #include "system.h"
+#include <list>
+
+using namespace std;
 
 #define STACK_FENCEPOST 0xdeadbeef	// this is put at the top of the
 					// execution stack, for detecting 
@@ -32,7 +35,19 @@
 //	"threadName" is an arbitrary string, useful for debugging.
 //----------------------------------------------------------------------
 
-Thread::Thread(char* threadName)
+extern list<int> threadAllocator;
+
+int allocateTID() {
+    if(threadAllocator.empty()) {
+        return -1;
+    } else {
+        int ret = threadAllocator.front();
+        threadAllocator.pop_front();
+        return ret;
+    }
+}
+
+Thread::Thread(char* threadName, int _uid)
 {
     name = threadName;
     stackTop = NULL;
@@ -41,6 +56,8 @@ Thread::Thread(char* threadName)
 #ifdef USER_PROGRAM
     space = NULL;
 #endif
+    uid = _uid;
+    tid = allocateTID();
 }
 
 //----------------------------------------------------------------------
@@ -149,6 +166,7 @@ Thread::Finish ()
     DEBUG('t', "Finishing thread \"%s\"\n", getName());
     
     threadToBeDestroyed = currentThread;
+    threadAllocator.push_back(tid);
     Sleep();					// invokes SWITCH
     // not reached
 }

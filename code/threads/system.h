@@ -50,3 +50,5 @@ extern PostOffice* postOffice;
 #endif
 
 #endif // SYSTEM_H
+
+#define MAXTHREAD 128
