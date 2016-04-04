@@ -45,12 +45,26 @@ SimpleThread(int which)
 void
 ThreadTest1()
 {
-    DEBUG('t', "Entering ThreadTest1");
+    DEBUG('t', "Entering ThreadTest1\n");
 
     Thread *t = new Thread("forked thread");
 
     t->Fork(SimpleThread, (void*)1);
     SimpleThread(0);
+}
+
+void doVoid(int tid) {
+    printf("forked thread run with tid %d\n", tid);
+    return;
+}
+
+void ThreadTest2() {
+    DEBUG('t', "Entering ThreadTest2\n");
+    for(int i = 0; i <= 129; ++i) {
+        Thread *t = new Thread("forked thread");
+        t->Fork(doVoid, t->getTID());
+        currentThread->Yield();
+    }
 }
 
 //----------------------------------------------------------------------
@@ -65,6 +79,9 @@ ThreadTest()
     case 1:
 	ThreadTest1();
 	break;
+    case 2:
+    ThreadTest2();
+    break;
     default:
 	printf("No test specified.\n");
 	break;

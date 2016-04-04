@@ -1,0 +1,779 @@
+Entering ThreadTest2
+Forking thread "forked thread" with func = 0x804a966, arg = 1
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 2
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 3
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 4
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 5
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 6
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 7
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 8
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 9
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 10
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 11
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 12
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 13
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 14
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 15
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 16
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 17
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 18
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 19
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 20
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 21
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 22
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 23
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 24
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 25
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 26
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 27
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 28
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 29
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 30
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 31
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 32
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 33
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 34
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 35
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 36
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 37
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 38
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 39
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 40
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 41
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 42
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 43
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 44
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 45
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 46
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 47
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 48
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 49
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 50
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 51
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 52
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 53
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 54
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 55
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 56
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 57
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 58
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 59
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 60
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 61
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 62
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 63
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 64
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 65
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 66
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 67
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 68
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 69
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 70
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 71
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 72
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 73
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 74
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 75
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 76
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 77
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 78
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 79
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 80
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 81
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 82
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 83
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 84
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 85
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 86
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 87
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 88
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 89
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 90
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 91
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 92
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 93
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 94
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 95
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 96
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 97
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 98
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 99
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 100
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 101
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 102
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 103
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 104
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 105
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 106
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 107
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 108
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 109
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 110
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 111
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 112
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 113
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 114
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 115
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 116
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 117
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 118
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 119
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 120
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 121
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 122
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 123
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 124
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 125
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 126
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x804a966, arg = 127
+Putting thread forked thread on ready list.
+forked thread cannot fork, no space for new thread
+forked thread cannot fork, no space for new thread
+forked thread cannot fork, no space for new thread
+Finishing thread "main"
+Sleeping thread "main"
+Switching from thread "main" to thread "forked thread"
+forked thread run with tid 1
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 2
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 3
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 4
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 5
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 6
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 7
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 8
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 9
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 10
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 11
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 12
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 13
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 14
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 15
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 16
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 17
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 18
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 19
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 20
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 21
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 22
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 23
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 24
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 25
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 26
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 27
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 28
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 29
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 30
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 31
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 32
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 33
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 34
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 35
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 36
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 37
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 38
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 39
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 40
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 41
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 42
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 43
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 44
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 45
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 46
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 47
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 48
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 49
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 50
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 51
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 52
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 53
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 54
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 55
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 56
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 57
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 58
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 59
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 60
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 61
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 62
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 63
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 64
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 65
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 66
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 67
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 68
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 69
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 70
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 71
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 72
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 73
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 74
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 75
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 76
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 77
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 78
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 79
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 80
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 81
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 82
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 83
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 84
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 85
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 86
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 87
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 88
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 89
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 90
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 91
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 92
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 93
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 94
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 95
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 96
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 97
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 98
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 99
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 100
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 101
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 102
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 103
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 104
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 105
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 106
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 107
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 108
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 109
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 110
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 111
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 112
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 113
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 114
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 115
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 116
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 117
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 118
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 119
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 120
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 121
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 122
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 123
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 124
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 125
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 126
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+forked thread run with tid 127
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 2550, idle 0, system 2550, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...

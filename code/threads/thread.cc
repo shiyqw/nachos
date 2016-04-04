@@ -104,6 +104,10 @@ Thread::~Thread()
 void 
 Thread::Fork(VoidFunctionPtr func, void *arg)
 {
+    if(tid == -1) {
+        printf("%s cannot fork, no space for new thread\n", name);
+        return;
+    }
     DEBUG('t', "Forking thread \"%s\" with func = 0x%x, arg = %d\n",
 	  name, (int) func, (int*) arg);
     

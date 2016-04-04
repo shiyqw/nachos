@@ -86,6 +86,9 @@ Initialize(int argc, char **argv)
     char* debugArgs = "";
     bool randomYield = FALSE;
 
+    for(int i = 0; i < MAXTHREAD; ++i) {
+        threadAllocator.push_back(i);
+    }
 #ifdef USER_PROGRAM
     bool debugUserProg = FALSE;	// single step user program
 #endif
@@ -167,9 +170,6 @@ Initialize(int argc, char **argv)
 #ifdef NETWORK
     postOffice = new PostOffice(netname, rely, 10);
 #endif
-    for(int i = 0; i < MAXTHREAD; ++i) {
-        threadAllocator.push_back(i);
-    }
 }
 
 //----------------------------------------------------------------------
