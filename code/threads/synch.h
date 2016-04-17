@@ -20,6 +20,9 @@
 #include "copyright.h"
 #include "thread.h"
 #include "list.h"
+#include <vector>
+
+using namespace std;
 
 // The following class defines a "semaphore" whose value is a non-negative
 // integer.  The semaphore has only two operations P() and V():
@@ -80,6 +83,8 @@ class Lock {
   private:
     char* name;				// for debugging
     // plus some other stuff you'll need to define
+    Thread * holder;
+    Semaphore * semaphore;
 };
 
 // The following class defines a "condition variable".  A condition
@@ -132,5 +137,22 @@ class Condition {
   private:
     char* name;
     // plus some other stuff you'll need to define
+    List * waitList;
+    Lock * lock;
+};
+class Barrier {
+    public:
+            
+        Semaphore  * semaphore;
+        int count;
+
+        vector<Semaphore *> semList;
+        Barrier(int _count);
+
+        ~Barrier();
+        
+        void setBarrier(int i);
+
+        void initBarrier();
 };
 #endif // SYNCH_H

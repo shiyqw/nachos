@@ -29,6 +29,7 @@ class Scheduler {
     void Print();			// Print contents of ready list
     
     List * getReadyList() {return readyList;}
+    void PreemptRun(Thread * thread);
   private:
     List *readyList;  		// queue of threads that are ready to run,
 				// but not running

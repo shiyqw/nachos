@@ -56,7 +56,18 @@ Scheduler::ReadyToRun (Thread *thread)
     DEBUG('t', "Putting thread %s on ready list.\n", thread->getName());
 
     thread->setStatus(READY);
-    readyList->Append((void *)thread);
+    readyList->SortedInsert((void *)thread, thread->getKey());
+}
+
+void Scheduler::PreemptRun(Thread * thread) {
+    printf("Trying to let %s preempt.\n", thread->getName());
+    DEBUG('t', "Trying to let %s preempt.\n", thread->getName());
+    if(currentThread->getPriority() > thread->getPriority()) {
+        ReadyToRun(thread);
+    } else {
+        ReadyToRun(currentThread);
+        Run(thread);
+    }
 }
 
 //----------------------------------------------------------------------

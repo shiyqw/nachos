@@ -55,6 +55,7 @@
 // WATCH OUT IF THIS ISN'T BIG ENOUGH!!!!!
 #define StackSize	(4 * 1024)	// in words
 
+#define P_DEFAULT 5
 
 // Thread state
 enum ThreadStatus { JUST_CREATED, RUNNING, READY, BLOCKED };
@@ -85,7 +86,7 @@ class Thread {
     int tid;
     /* Added */
   public:
-    Thread(char* debugName, int _uid = 0);		// initialize a Thread 
+    Thread(char* debugName, int _priority = P_DEFAULT, int _uid = 0);		// initialize a Thread 
     ~Thread(); 				// deallocate a Thread
 					// NOTE -- thread being deleted
 					// must not be running when delete 
@@ -133,6 +134,10 @@ class Thread {
     AddrSpace *space;			// User code this thread is running.
 #endif
   private:
+    int priority;
+    int lastTick;
+    int currentTick;
+    int tickStep;
   public:
     int getUID() {return uid;}
     int getTID() {return tid;}
@@ -147,6 +152,11 @@ class Thread {
             return "BLOCKED";
         }
     }
+
+    int getPriority() {return priority;}
+    int getLastTick() {return lastTick;}
+    int getCurrentTick() {return currentTick;}
+    int getKey();
 };
 
 // Magical machine-dependent routines, defined in switch.s

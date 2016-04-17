@@ -64,9 +64,10 @@ Semaphore::~Semaphore()
 void
 Semaphore::P()
 {
+    DEBUG('t', "IN P value = %d\n", value);
     IntStatus oldLevel = interrupt->SetLevel(IntOff);	// disable interrupts
     
-    while (value == 0) { 			// semaphore not available
+    while (value <= 0) { 			// semaphore not available
 	queue->Append((void *)currentThread);	// so go to sleep
 	currentThread->Sleep();
     } 
@@ -100,13 +101,103 @@ Semaphore::V()
 // Dummy functions -- so we can compile our later assignments 
 // Note -- without a correct implementation of Condition::Wait(), 
 // the test case in the network assignment won't work!
-Lock::Lock(char* debugName) {}
-Lock::~Lock() {}
-void Lock::Acquire() {}
-void Lock::Release() {}
+Lock::Lock(char* debugName) {
+    name = debugName;
+    semaphore = new Semaphore(debugName, 1);
+    holder = NULL;
+}
+Lock::~Lock() {
+    delete semaphore;
+}
+void Lock::Acquire() {
+    IntStatus oldLevel = interrupt->SetLevel(IntOff);
+    semaphore->P();
+    holder = currentThread;
+    (void) interrupt->SetLevel(oldLevel);
+}
+void Lock::Release() {
+    IntStatus oldLevel = interrupt->SetLevel(IntOff);
+    semaphore->V();
+    holder = NULL;
+    (void) interrupt->SetLevel(oldLevel);
+}
+bool Lock::isHeldByCurrentThread() {
+    return holder == currentThread;
+}
 
-Condition::Condition(char* debugName) { }
-Condition::~Condition() { }
-void Condition::Wait(Lock* conditionLock) { ASSERT(FALSE); }
-void Condition::Signal(Lock* conditionLock) { }
+Condition::Condition(char* debugName) {
+    name = debugName;
+    waitList = new List();
+}
+Condition::~Condition() {
+    delete waitList;
+}
+
+void Condition::Wait(Lock* conditionLock) { 
+    IntStatus oldLevel = interrupt->SetLevel(IntOff);
+    ASSERT(conditionLock->isHeldByCurrentThread());
+    DEBUG('t', "in waiting\n");
+    if(waitList->IsEmpty()) {
+        lock = conditionLock;
+    }
+
+    waitList->Append(currentThread);
+    conditionLock->Release();
+    currentThread->Sleep();
+    conditionLock->Acquire();
+    (void) interrupt->SetLevel(oldLevel);
+}
+void Condition::Signal(Lock* conditionLock) { 
+    IntStatus oldLevel = interrupt->SetLevel(IntOff);
+    DEBUG('t', "in signaling\n");
+    ASSERT(conditionLock->isHeldByCurrentThread());
+    if(!waitList->IsEmpty()) {
+        Thread* nextThread = (Thread *) waitList->Remove();
+        scheduler->ReadyToRun(nextThread);
+    }
+    (void) interrupt->SetLevel(oldLevel);
+}
 void Condition::Broadcast(Lock* conditionLock) { }
+
+Barrier::Barrier(int _count) {
+    count = _count;
+    semaphore = new Semaphore("BARRIER", 1-count);
+    semList = vector<Semaphore*>();
+}
+
+Barrier::~Barrier() {
+    delete semaphore;
+    for(int i = 0; i < semList.size(); ++i) {
+        delete semList[i];
+    }
+}
+
+void barrierFunc(int arg) {
+   Barrier * barrier = (Barrier*) arg;
+   barrier->semaphore->P();
+   for(int i = 0; i < barrier->semList.size(); ++i) {
+       barrier->semList[i]->V();
+   }
+}
+
+
+void Barrier::initBarrier() {
+    
+    DEBUG('t', "INIT BARRIER\n");
+    for(int i = 0; i < count; ++i) {
+        Semaphore * bsemaphore = new Semaphore("THREADSEM", 0);
+        DEBUG('t', "%d thread in barrier init\n", bsemaphore);
+        semList.push_back(bsemaphore);
+    }
+    Thread * barrierThread = new Thread("barrier"); 
+    barrierThread->Fork(barrierFunc, int(this));
+}
+
+void Barrier::setBarrier(int i) {
+    DEBUG('t', "in set barrier\n");
+    semaphore->V();
+    DEBUG('t', "%d %d \n", i, semList[i]);
+    semList[i]->P();
+    DEBUG('t', "in set barrier 3\n");
+}
+

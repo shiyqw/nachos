@@ -40,6 +40,7 @@ PostOffice *postOffice;
 
 list<int> threadAllocator;
 bool enableTS;
+char sch_mode;
 
 
 // External definition, to allow us to take a pointer to this function
@@ -119,6 +120,10 @@ Initialize(int argc, char **argv)
 	    argCount = 2;
 	} else if (!strcmp(*argv, "-ts")) {
         enableTS = true;
+    } else if (!strcmp(*argv, "-sc")) {
+        ASSERT(argc > 1);
+        sch_mode = argv[1][0];
+        argCount = 2;
     }
 #ifdef USER_PROGRAM
 	if (!strcmp(*argv, "-s"))
@@ -148,6 +153,9 @@ Initialize(int argc, char **argv)
     if (randomYield)				// start the timer (if needed)
 	timer = new Timer(TimerInterruptHandler, 0, randomYield);
 
+    if (sch_mode == 'l' || sch_mode == 'r') {
+        timer = new Timer(TimerInterruptHandler, 0, false);
+    }
     threadToBeDestroyed = NULL;
 
     // We didn't explicitly allocate the current thread we are running in.

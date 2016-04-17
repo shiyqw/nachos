@@ -37,6 +37,7 @@ using namespace std;
 
 extern list<int> threadAllocator;
 extern bool enableTS;
+extern char sch_mode;
 
 int allocateTID() {
     if(threadAllocator.empty()) {
@@ -48,7 +49,7 @@ int allocateTID() {
     }
 }
 
-Thread::Thread(char* threadName, int _uid)
+Thread::Thread(char* threadName, int _priority, int _uid)
 {
     name = threadName;
     stackTop = NULL;
@@ -59,6 +60,16 @@ Thread::Thread(char* threadName, int _uid)
 #endif
     uid = _uid;
     tid = allocateTID();
+    priority = _priority;
+    if(!strcmp(name, "main")) {
+        priority = 11;
+    }
+    lastTick = currentTick = 0;
+    if(sch_mode == 'l') {
+        tickStep = priority;
+    } else {
+        tickStep = 1;
+    }
 }
 
 //----------------------------------------------------------------------
@@ -115,8 +126,13 @@ Thread::Fork(VoidFunctionPtr func, void *arg)
     StackAllocate(func, arg);
 
     IntStatus oldLevel = interrupt->SetLevel(IntOff);
-    scheduler->ReadyToRun(this);	// ReadyToRun assumes that interrupts 
+    //scheduler->ReadyToRun(this);	// ReadyToRun assumes that interrupts 
 					// are disabled!
+    if(sch_mode == 'p') {
+        scheduler->PreemptRun(this);
+    } else {
+        scheduler->ReadyToRun(this);
+    }
     (void) interrupt->SetLevel(oldLevel);
 }    
 
@@ -229,13 +245,34 @@ Thread::Yield ()
     
     DEBUG('t', "Yielding thread \"%s\"\n", getName());
 
+    bool change = false;
     TS();
-    
-    nextThread = scheduler->FindNextToRun();
-    if (nextThread != NULL) {
-	scheduler->ReadyToRun(this);
-	scheduler->Run(nextThread);
+    currentTick++;
+    if(currentTick - lastTick == tickStep) {
+        lastTick = currentTick;
+        change = true;
+    } else {
+        change = false;
     }
+    if(sch_mode == 'f' || sch_mode == 'p') {
+        change = true;
+    }
+    DEBUG('t', "Cur, Lst = %d %d\n", currentTick, lastTick);
+    if(change) {
+        nextThread = scheduler->FindNextToRun();
+        if (nextThread != NULL) {
+        scheduler->ReadyToRun(this);
+        scheduler->Run(nextThread);
+        }
+    } else {
+        scheduler->Run(this);
+    }
+    
+    //nextThread = scheduler->FindNextToRun();
+    //if (nextThread != NULL) {
+	//scheduler->ReadyToRun(this);
+	//scheduler->Run(nextThread);
+    //}
     (void) interrupt->SetLevel(oldLevel);
 }
 
@@ -368,3 +405,11 @@ Thread::RestoreUserState()
 	machine->WriteRegister(i, userRegisters[i]);
 }
 #endif
+
+int Thread::getKey() {
+    if(sch_mode == 'r' || sch_mode == 'f') return 0;
+    if(sch_mode == 'p') return -priority;
+    if(sch_mode == 'l') {
+        return (currentTick / priority);
+    }
+}
