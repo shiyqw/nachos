@@ -39,6 +39,7 @@
 enum ExceptionType { NoException,           // Everything ok!
 		     SyscallException,      // A program executed a system call.
 		     PageFaultException,    // No valid translation found
+             TLBMissException,  // TLB Miss
 		     ReadOnlyException,     // Write attempted to page marked 
 					    // "read-only"
 		     BusErrorException,     // Translation resulted in an 
@@ -181,6 +182,8 @@ class Machine {
 
     TranslationEntry *pageTable;
     unsigned int pageTableSize;
+    void TLBSwapFIFO(int);
+    void TLBSwapLRU(int);
 
   private:
     bool singleStep;		// drop back into the debugger after each
@@ -210,5 +213,35 @@ unsigned int WordToHost(unsigned int word);
 unsigned short ShortToHost(unsigned short shortword);
 unsigned int WordToMachine(unsigned int word);
 unsigned short ShortToMachine(unsigned short shortword);
+
+#include "bitmap.h"
+
+class PageManager
+{
+
+     public:
+            PageManager();
+            ~PageManager();
+ 
+            int findPage();         // Find a clean page in the memory 
+                                         // and allocate to the program, return the start address of the clear page
+                                         // 0xffffffff means that there is not a clean page
+
+            int numClean();              // Return the number of clean pages
+    
+            void markPage(int address);   // Set the page start from the specific address
+            
+            void cleanPage(int address); // Clean the page start from specific address 
+
+            //bool loadPage();             // load page for the current thread
+   
+            //int unloadPage();            // unload page for the current thread 
+
+            //int SwapAlgorithm();         // swap a page from the memory to the disk
+
+     private:
+            BitMap *manager;
+    
+};
 
 #endif // MACHINE_H

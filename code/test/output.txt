@@ -1,0 +1,5049 @@
+147057416 TLBQQ
+start a user program
+start a user program
+start a user program
+start a user program
+Initializing address space, num pages 14, size 1792
+Initializing code segment, at 0x0, size 752
+Initializing stack register to 1776
+Reading VA 0x0, size 4
+main translating
+	Translate 0x0, read: vpn:0, ppn:0
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+Slot 0 is empty.
+0 missed in TLB.
+main translating
+	Translate 0x0, read: vpn:0, ppn:0
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x0
+	value read = 0c000034
+Reading VA 0x4, size 4
+main translating
+	Translate 0x4, read: vpn:0, ppn:0
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x4
+	value read = 00000000
+Reading VA 0xd0, size 4
+main translating
+	Translate 0xd0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+Slot 1 is empty.
+d0 missed in TLB.
+main translating
+	Translate 0xd0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xd0
+	value read = 27bdffd8
+Reading VA 0xd4, size 4
+main translating
+	Translate 0xd4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xd4
+	value read = afbf0024
+Writing VA 0x6ec, size 4, value 0x8
+main translating
+	Translate 0x6ec, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+Slot 2 is empty.
+6ec missed in TLB.
+main translating
+	Translate 0x6ec, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6ec
+Reading VA 0xd8, size 4
+main translating
+	Translate 0xd8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xd8
+	value read = afbe0020
+Writing VA 0x6e8, size 4, value 0x0
+main translating
+	Translate 0x6e8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e8
+Reading VA 0xdc, size 4
+main translating
+	Translate 0xdc, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xdc
+	value read = 0c000030
+Reading VA 0xe0, size 4
+main translating
+	Translate 0xe0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xe0
+	value read = 03a0f021
+Reading VA 0xc0, size 4
+main translating
+	Translate 0xc0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xc0
+	value read = 03e00008
+Reading VA 0xc4, size 4
+main translating
+	Translate 0xc4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xc4
+	value read = 00000000
+Reading VA 0xe4, size 4
+main translating
+	Translate 0xe4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xe4
+	value read = afc00010
+Writing VA 0x6d8, size 4, value 0x0
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0xe8, size 4
+main translating
+	Translate 0xe8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xe8
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0xec, size 4
+main translating
+	Translate 0xec, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xec
+	value read = 00000000
+Reading VA 0xf0, size 4
+main translating
+	Translate 0xf0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf0
+	value read = 28430004
+Reading VA 0xf4, size 4
+main translating
+	Translate 0xf4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf4
+	value read = 14600003
+Reading VA 0xf8, size 4
+main translating
+	Translate 0xf8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf8
+	value read = 00000000
+Reading VA 0x104, size 4
+main translating
+	Translate 0x104, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+Slot 3 is empty.
+104 missed in TLB.
+main translating
+	Translate 0x104, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x104
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x108, size 4
+main translating
+	Translate 0x108, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x108
+	value read = 00000000
+Reading VA 0x10c, size 4
+main translating
+	Translate 0x10c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x10c
+	value read = 00401821
+Reading VA 0x110, size 4
+main translating
+	Translate 0x110, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x110
+	value read = 00031080
+Reading VA 0x114, size 4
+main translating
+	Translate 0x114, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x114
+	value read = 3c030000
+Reading VA 0x118, size 4
+main translating
+	Translate 0x118, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x118
+	value read = 246302f0
+Reading VA 0x11c, size 4
+main translating
+	Translate 0x11c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x11c
+	value read = 00621021
+Reading VA 0x120, size 4
+main translating
+	Translate 0x120, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x120
+	value read = 24030004
+Reading VA 0x124, size 4
+main translating
+	Translate 0x124, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x124
+	value read = 8fc40010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x128, size 4
+main translating
+	Translate 0x128, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x128
+	value read = 00000000
+Reading VA 0x12c, size 4
+main translating
+	Translate 0x12c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x12c
+	value read = 00641823
+Reading VA 0x130, size 4
+main translating
+	Translate 0x130, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x130
+	value read = ac430000
+Writing VA 0x2f0, size 4, value 0x4
+main translating
+	Translate 0x2f0, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+2f0 missed in TLB.
+main translating
+	Translate 0x2f0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f0
+Reading VA 0x134, size 4
+main translating
+	Translate 0x134, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x134
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x138, size 4
+main translating
+	Translate 0x138, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x138
+	value read = 00000000
+Reading VA 0x13c, size 4
+main translating
+	Translate 0x13c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x13c
+	value read = 24430001
+Reading VA 0x140, size 4
+main translating
+	Translate 0x140, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x140
+	value read = 0800003a
+Reading VA 0x144, size 4
+main translating
+	Translate 0x144, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x144
+	value read = afc30010
+Writing VA 0x6d8, size 4, value 0x1
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0xe8, size 4
+main translating
+	Translate 0xe8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xe8
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0xec, size 4
+main translating
+	Translate 0xec, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xec
+	value read = 00000000
+Reading VA 0xf0, size 4
+main translating
+	Translate 0xf0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf0
+	value read = 28430004
+Reading VA 0xf4, size 4
+main translating
+	Translate 0xf4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf4
+	value read = 14600003
+Reading VA 0xf8, size 4
+main translating
+	Translate 0xf8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf8
+	value read = 00000000
+Reading VA 0x104, size 4
+main translating
+	Translate 0x104, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x104
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x108, size 4
+main translating
+	Translate 0x108, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x108
+	value read = 00000000
+Reading VA 0x10c, size 4
+main translating
+	Translate 0x10c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x10c
+	value read = 00401821
+Reading VA 0x110, size 4
+main translating
+	Translate 0x110, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x110
+	value read = 00031080
+Reading VA 0x114, size 4
+main translating
+	Translate 0x114, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x114
+	value read = 3c030000
+Reading VA 0x118, size 4
+main translating
+	Translate 0x118, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x118
+	value read = 246302f0
+Reading VA 0x11c, size 4
+main translating
+	Translate 0x11c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x11c
+	value read = 00621021
+Reading VA 0x120, size 4
+main translating
+	Translate 0x120, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x120
+	value read = 24030004
+Reading VA 0x124, size 4
+main translating
+	Translate 0x124, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x124
+	value read = 8fc40010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x128, size 4
+main translating
+	Translate 0x128, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x128
+	value read = 00000000
+Reading VA 0x12c, size 4
+main translating
+	Translate 0x12c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x12c
+	value read = 00641823
+Reading VA 0x130, size 4
+main translating
+	Translate 0x130, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x130
+	value read = ac430000
+Writing VA 0x2f4, size 4, value 0x3
+main translating
+	Translate 0x2f4, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+Reading VA 0x134, size 4
+main translating
+	Translate 0x134, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x134
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x138, size 4
+main translating
+	Translate 0x138, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x138
+	value read = 00000000
+Reading VA 0x13c, size 4
+main translating
+	Translate 0x13c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x13c
+	value read = 24430001
+Reading VA 0x140, size 4
+main translating
+	Translate 0x140, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x140
+	value read = 0800003a
+Reading VA 0x144, size 4
+main translating
+	Translate 0x144, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x144
+	value read = afc30010
+Writing VA 0x6d8, size 4, value 0x2
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0xe8, size 4
+main translating
+	Translate 0xe8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xe8
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0xec, size 4
+main translating
+	Translate 0xec, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xec
+	value read = 00000000
+Reading VA 0xf0, size 4
+main translating
+	Translate 0xf0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf0
+	value read = 28430004
+Reading VA 0xf4, size 4
+main translating
+	Translate 0xf4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf4
+	value read = 14600003
+Reading VA 0xf8, size 4
+main translating
+	Translate 0xf8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf8
+	value read = 00000000
+Reading VA 0x104, size 4
+main translating
+	Translate 0x104, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x104
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0x108, size 4
+main translating
+	Translate 0x108, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x108
+	value read = 00000000
+Reading VA 0x10c, size 4
+main translating
+	Translate 0x10c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x10c
+	value read = 00401821
+Reading VA 0x110, size 4
+main translating
+	Translate 0x110, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x110
+	value read = 00031080
+Reading VA 0x114, size 4
+main translating
+	Translate 0x114, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x114
+	value read = 3c030000
+Reading VA 0x118, size 4
+main translating
+	Translate 0x118, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x118
+	value read = 246302f0
+Reading VA 0x11c, size 4
+main translating
+	Translate 0x11c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x11c
+	value read = 00621021
+Reading VA 0x120, size 4
+main translating
+	Translate 0x120, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x120
+	value read = 24030004
+Reading VA 0x124, size 4
+main translating
+	Translate 0x124, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x124
+	value read = 8fc40010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0x128, size 4
+main translating
+	Translate 0x128, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x128
+	value read = 00000000
+Reading VA 0x12c, size 4
+main translating
+	Translate 0x12c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x12c
+	value read = 00641823
+Reading VA 0x130, size 4
+main translating
+	Translate 0x130, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x130
+	value read = ac430000
+Writing VA 0x2f8, size 4, value 0x2
+main translating
+	Translate 0x2f8, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+Reading VA 0x134, size 4
+main translating
+	Translate 0x134, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x134
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0x138, size 4
+main translating
+	Translate 0x138, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x138
+	value read = 00000000
+Reading VA 0x13c, size 4
+main translating
+	Translate 0x13c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x13c
+	value read = 24430001
+Reading VA 0x140, size 4
+main translating
+	Translate 0x140, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x140
+	value read = 0800003a
+Reading VA 0x144, size 4
+main translating
+	Translate 0x144, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x144
+	value read = afc30010
+Writing VA 0x6d8, size 4, value 0x3
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0xe8, size 4
+main translating
+	Translate 0xe8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xe8
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000003
+Reading VA 0xec, size 4
+main translating
+	Translate 0xec, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xec
+	value read = 00000000
+Reading VA 0xf0, size 4
+main translating
+	Translate 0xf0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf0
+	value read = 28430004
+Reading VA 0xf4, size 4
+main translating
+	Translate 0xf4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf4
+	value read = 14600003
+Reading VA 0xf8, size 4
+main translating
+	Translate 0xf8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf8
+	value read = 00000000
+Reading VA 0x104, size 4
+main translating
+	Translate 0x104, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x104
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000003
+Reading VA 0x108, size 4
+main translating
+	Translate 0x108, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x108
+	value read = 00000000
+Reading VA 0x10c, size 4
+main translating
+	Translate 0x10c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x10c
+	value read = 00401821
+Reading VA 0x110, size 4
+main translating
+	Translate 0x110, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x110
+	value read = 00031080
+Reading VA 0x114, size 4
+main translating
+	Translate 0x114, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x114
+	value read = 3c030000
+Reading VA 0x118, size 4
+main translating
+	Translate 0x118, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x118
+	value read = 246302f0
+Reading VA 0x11c, size 4
+main translating
+	Translate 0x11c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x11c
+	value read = 00621021
+Reading VA 0x120, size 4
+main translating
+	Translate 0x120, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x120
+	value read = 24030004
+Reading VA 0x124, size 4
+main translating
+	Translate 0x124, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x124
+	value read = 8fc40010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000003
+Reading VA 0x128, size 4
+main translating
+	Translate 0x128, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x128
+	value read = 00000000
+Reading VA 0x12c, size 4
+main translating
+	Translate 0x12c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x12c
+	value read = 00641823
+Reading VA 0x130, size 4
+main translating
+	Translate 0x130, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x130
+	value read = ac430000
+Writing VA 0x2fc, size 4, value 0x1
+main translating
+	Translate 0x2fc, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2fc
+Reading VA 0x134, size 4
+main translating
+	Translate 0x134, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x134
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000003
+Reading VA 0x138, size 4
+main translating
+	Translate 0x138, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x138
+	value read = 00000000
+Reading VA 0x13c, size 4
+main translating
+	Translate 0x13c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x13c
+	value read = 24430001
+Reading VA 0x140, size 4
+main translating
+	Translate 0x140, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x140
+	value read = 0800003a
+Reading VA 0x144, size 4
+main translating
+	Translate 0x144, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x144
+	value read = afc30010
+Writing VA 0x6d8, size 4, value 0x4
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0xe8, size 4
+main translating
+	Translate 0xe8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xe8
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000004
+Reading VA 0xec, size 4
+main translating
+	Translate 0xec, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xec
+	value read = 00000000
+Reading VA 0xf0, size 4
+main translating
+	Translate 0xf0, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf0
+	value read = 28430004
+Reading VA 0xf4, size 4
+main translating
+	Translate 0xf4, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf4
+	value read = 14600003
+Reading VA 0xf8, size 4
+main translating
+	Translate 0xf8, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xf8
+	value read = 00000000
+Reading VA 0xfc, size 4
+main translating
+	Translate 0xfc, read: vpn:1, ppn:1
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0xfc
+	value read = 08000052
+Reading VA 0x100, size 4
+main translating
+	Translate 0x100, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x100
+	value read = 00000000
+Reading VA 0x148, size 4
+main translating
+	Translate 0x148, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x148
+	value read = 00000000
+Reading VA 0x14c, size 4
+main translating
+	Translate 0x14c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x14c
+	value read = afc00010
+Writing VA 0x6d8, size 4, value 0x0
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0x150, size 4
+main translating
+	Translate 0x150, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x150
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x154, size 4
+main translating
+	Translate 0x154, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x154
+	value read = 00000000
+Reading VA 0x158, size 4
+main translating
+	Translate 0x158, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x158
+	value read = 28430003
+Reading VA 0x15c, size 4
+main translating
+	Translate 0x15c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x15c
+	value read = 14600003
+Reading VA 0x160, size 4
+main translating
+	Translate 0x160, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x160
+	value read = 00000000
+Reading VA 0x16c, size 4
+main translating
+	Translate 0x16c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x16c
+	value read = 00000000
+Reading VA 0x170, size 4
+main translating
+	Translate 0x170, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x170
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x174, size 4
+main translating
+	Translate 0x174, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x174
+	value read = 00000000
+Reading VA 0x178, size 4
+main translating
+	Translate 0x178, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x178
+	value read = afc20014
+Writing VA 0x6dc, size 4, value 0x0
+main translating
+	Translate 0x6dc, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+Reading VA 0x17c, size 4
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x17c
+	value read = 24020003
+Reading VA 0x180, size 4
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+180 missed in TLB.
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x180
+	value read = 8fc30010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x184, size 4
+main translating
+	Translate 0x184, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x184
+	value read = 00000000
+Reading VA 0x188, size 4
+main translating
+	Translate 0x188, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x188
+	value read = 00431023
+Reading VA 0x18c, size 4
+main translating
+	Translate 0x18c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x18c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x190, size 4
+main translating
+	Translate 0x190, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x190
+	value read = 00000000
+Reading VA 0x194, size 4
+main translating
+	Translate 0x194, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x194
+	value read = 0062102a
+Reading VA 0x198, size 4
+main translating
+	Translate 0x198, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x198
+	value read = 14400003
+Reading VA 0x19c, size 4
+main translating
+	Translate 0x19c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x19c
+	value read = 00000000
+Reading VA 0x1a8, size 4
+main translating
+	Translate 0x1a8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a8
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x1ac, size 4
+main translating
+	Translate 0x1ac, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ac
+	value read = 00000000
+Reading VA 0x1b0, size 4
+main translating
+	Translate 0x1b0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b0
+	value read = 00401821
+Reading VA 0x1b4, size 4
+main translating
+	Translate 0x1b4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b4
+	value read = 00031080
+Reading VA 0x1b8, size 4
+main translating
+	Translate 0x1b8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b8
+	value read = 3c030000
+Reading VA 0x1bc, size 4
+main translating
+	Translate 0x1bc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1bc
+	value read = 246302f0
+Reading VA 0x1c0, size 4
+main translating
+	Translate 0x1c0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c0
+	value read = 00621021
+Reading VA 0x1c4, size 4
+main translating
+	Translate 0x1c4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c4
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x1c8, size 4
+main translating
+	Translate 0x1c8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c8
+	value read = 00000000
+Reading VA 0x1cc, size 4
+main translating
+	Translate 0x1cc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1cc
+	value read = 24830001
+Reading VA 0x1d0, size 4
+main translating
+	Translate 0x1d0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d0
+	value read = 00602021
+Reading VA 0x1d4, size 4
+main translating
+	Translate 0x1d4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d4
+	value read = 00041880
+Reading VA 0x1d8, size 4
+main translating
+	Translate 0x1d8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d8
+	value read = 3c040000
+Reading VA 0x1dc, size 4
+main translating
+	Translate 0x1dc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1dc
+	value read = 248402f0
+Reading VA 0x1e0, size 4
+main translating
+	Translate 0x1e0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e0
+	value read = 00831821
+Reading VA 0x1e4, size 4
+main translating
+	Translate 0x1e4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e4
+	value read = 8c420000
+Reading VA 0x2f0, size 4
+main translating
+	Translate 0x2f0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+2f0 missed in TLB.
+main translating
+	Translate 0x2f0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f0
+	value read = 00000004
+Reading VA 0x1e8, size 4
+main translating
+	Translate 0x1e8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e8
+	value read = 8c630000
+Reading VA 0x2f4, size 4
+main translating
+	Translate 0x2f4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+	value read = 00000003
+Reading VA 0x1ec, size 4
+main translating
+	Translate 0x1ec, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ec
+	value read = 00000000
+Reading VA 0x1f0, size 4
+main translating
+	Translate 0x1f0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f0
+	value read = 0062102a
+Reading VA 0x1f4, size 4
+main translating
+	Translate 0x1f4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f4
+	value read = 10400028
+Reading VA 0x1f8, size 4
+main translating
+	Translate 0x1f8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f8
+	value read = 00000000
+Reading VA 0x1fc, size 4
+main translating
+	Translate 0x1fc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1fc
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x200, size 4
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+200 missed in TLB.
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x200
+	value read = 00000000
+Reading VA 0x204, size 4
+main translating
+	Translate 0x204, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x204
+	value read = 00401821
+Reading VA 0x208, size 4
+main translating
+	Translate 0x208, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x208
+	value read = 00031080
+Reading VA 0x20c, size 4
+main translating
+	Translate 0x20c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x20c
+	value read = 3c030000
+Reading VA 0x210, size 4
+main translating
+	Translate 0x210, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x210
+	value read = 246302f0
+Reading VA 0x214, size 4
+main translating
+	Translate 0x214, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x214
+	value read = 00621021
+Reading VA 0x218, size 4
+main translating
+	Translate 0x218, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x218
+	value read = 8c430000
+Reading VA 0x2f0, size 4
+main translating
+	Translate 0x2f0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f0
+	value read = 00000004
+Reading VA 0x21c, size 4
+main translating
+	Translate 0x21c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x21c
+	value read = 00000000
+Reading VA 0x220, size 4
+main translating
+	Translate 0x220, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x220
+	value read = afc30018
+Writing VA 0x6e0, size 4, value 0x4
+main translating
+	Translate 0x6e0, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+Reading VA 0x224, size 4
+main translating
+	Translate 0x224, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x224
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x228, size 4
+main translating
+	Translate 0x228, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x228
+	value read = 00000000
+Reading VA 0x22c, size 4
+main translating
+	Translate 0x22c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x22c
+	value read = 00401821
+Reading VA 0x230, size 4
+main translating
+	Translate 0x230, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x230
+	value read = 00031080
+Reading VA 0x234, size 4
+main translating
+	Translate 0x234, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x234
+	value read = 3c030000
+Reading VA 0x238, size 4
+main translating
+	Translate 0x238, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x238
+	value read = 246302f0
+Reading VA 0x23c, size 4
+main translating
+	Translate 0x23c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x23c
+	value read = 00621021
+Reading VA 0x240, size 4
+main translating
+	Translate 0x240, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x240
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x244, size 4
+main translating
+	Translate 0x244, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x244
+	value read = 00000000
+Reading VA 0x248, size 4
+main translating
+	Translate 0x248, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x248
+	value read = 24830001
+Reading VA 0x24c, size 4
+main translating
+	Translate 0x24c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x24c
+	value read = 00602021
+Reading VA 0x250, size 4
+main translating
+	Translate 0x250, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x250
+	value read = 00041880
+Reading VA 0x254, size 4
+main translating
+	Translate 0x254, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x254
+	value read = 3c040000
+Reading VA 0x258, size 4
+main translating
+	Translate 0x258, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x258
+	value read = 248402f0
+Reading VA 0x25c, size 4
+main translating
+	Translate 0x25c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x25c
+	value read = 00831821
+Reading VA 0x260, size 4
+main translating
+	Translate 0x260, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x260
+	value read = 8c640000
+Reading VA 0x2f4, size 4
+main translating
+	Translate 0x2f4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+	value read = 00000003
+Reading VA 0x264, size 4
+main translating
+	Translate 0x264, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x264
+	value read = 00000000
+Reading VA 0x268, size 4
+main translating
+	Translate 0x268, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x268
+	value read = ac440000
+Writing VA 0x2f0, size 4, value 0x3
+main translating
+	Translate 0x2f0, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f0
+Reading VA 0x26c, size 4
+main translating
+	Translate 0x26c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x26c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x270, size 4
+main translating
+	Translate 0x270, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x270
+	value read = 00000000
+Reading VA 0x274, size 4
+main translating
+	Translate 0x274, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x274
+	value read = 24620001
+Reading VA 0x278, size 4
+main translating
+	Translate 0x278, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x278
+	value read = 00401821
+Reading VA 0x27c, size 4
+main translating
+	Translate 0x27c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x27c
+	value read = 00031080
+Reading VA 0x280, size 4
+main translating
+	Translate 0x280, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x280
+	value read = 3c030000
+Reading VA 0x284, size 4
+main translating
+	Translate 0x284, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x284
+	value read = 246302f0
+Reading VA 0x288, size 4
+main translating
+	Translate 0x288, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x288
+	value read = 00621021
+Reading VA 0x28c, size 4
+main translating
+	Translate 0x28c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x28c
+	value read = 8fc30018
+Reading VA 0x6e0, size 4
+main translating
+	Translate 0x6e0, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+	value read = 00000004
+Reading VA 0x290, size 4
+main translating
+	Translate 0x290, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x290
+	value read = 00000000
+Reading VA 0x294, size 4
+main translating
+	Translate 0x294, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x294
+	value read = ac430000
+Writing VA 0x2f4, size 4, value 0x4
+main translating
+	Translate 0x2f4, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+Reading VA 0x298, size 4
+main translating
+	Translate 0x298, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x298
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000000
+Reading VA 0x29c, size 4
+main translating
+	Translate 0x29c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x29c
+	value read = 00000000
+Reading VA 0x2a0, size 4
+main translating
+	Translate 0x2a0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a0
+	value read = 24430001
+Reading VA 0x2a4, size 4
+main translating
+	Translate 0x2a4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a4
+	value read = 0800005f
+Reading VA 0x2a8, size 4
+main translating
+	Translate 0x2a8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a8
+	value read = afc30014
+Writing VA 0x6dc, size 4, value 0x1
+main translating
+	Translate 0x6dc, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+Reading VA 0x17c, size 4
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+17c missed in TLB.
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x17c
+	value read = 24020003
+Reading VA 0x180, size 4
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+180 missed in TLB.
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x180
+	value read = 8fc30010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x184, size 4
+main translating
+	Translate 0x184, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x184
+	value read = 00000000
+Reading VA 0x188, size 4
+main translating
+	Translate 0x188, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x188
+	value read = 00431023
+Reading VA 0x18c, size 4
+main translating
+	Translate 0x18c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x18c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x190, size 4
+main translating
+	Translate 0x190, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x190
+	value read = 00000000
+Reading VA 0x194, size 4
+main translating
+	Translate 0x194, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x194
+	value read = 0062102a
+Reading VA 0x198, size 4
+main translating
+	Translate 0x198, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x198
+	value read = 14400003
+Reading VA 0x19c, size 4
+main translating
+	Translate 0x19c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x19c
+	value read = 00000000
+Reading VA 0x1a8, size 4
+main translating
+	Translate 0x1a8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a8
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x1ac, size 4
+main translating
+	Translate 0x1ac, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ac
+	value read = 00000000
+Reading VA 0x1b0, size 4
+main translating
+	Translate 0x1b0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b0
+	value read = 00401821
+Reading VA 0x1b4, size 4
+main translating
+	Translate 0x1b4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b4
+	value read = 00031080
+Reading VA 0x1b8, size 4
+main translating
+	Translate 0x1b8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b8
+	value read = 3c030000
+Reading VA 0x1bc, size 4
+main translating
+	Translate 0x1bc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1bc
+	value read = 246302f0
+Reading VA 0x1c0, size 4
+main translating
+	Translate 0x1c0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c0
+	value read = 00621021
+Reading VA 0x1c4, size 4
+main translating
+	Translate 0x1c4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c4
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x1c8, size 4
+main translating
+	Translate 0x1c8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c8
+	value read = 00000000
+Reading VA 0x1cc, size 4
+main translating
+	Translate 0x1cc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1cc
+	value read = 24830001
+Reading VA 0x1d0, size 4
+main translating
+	Translate 0x1d0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d0
+	value read = 00602021
+Reading VA 0x1d4, size 4
+main translating
+	Translate 0x1d4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d4
+	value read = 00041880
+Reading VA 0x1d8, size 4
+main translating
+	Translate 0x1d8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d8
+	value read = 3c040000
+Reading VA 0x1dc, size 4
+main translating
+	Translate 0x1dc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1dc
+	value read = 248402f0
+Reading VA 0x1e0, size 4
+main translating
+	Translate 0x1e0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e0
+	value read = 00831821
+Reading VA 0x1e4, size 4
+main translating
+	Translate 0x1e4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e4
+	value read = 8c420000
+Reading VA 0x2f4, size 4
+main translating
+	Translate 0x2f4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+	value read = 00000004
+Reading VA 0x1e8, size 4
+main translating
+	Translate 0x1e8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e8
+	value read = 8c630000
+Reading VA 0x2f8, size 4
+main translating
+	Translate 0x2f8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+	value read = 00000002
+Reading VA 0x1ec, size 4
+main translating
+	Translate 0x1ec, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ec
+	value read = 00000000
+Reading VA 0x1f0, size 4
+main translating
+	Translate 0x1f0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f0
+	value read = 0062102a
+Reading VA 0x1f4, size 4
+main translating
+	Translate 0x1f4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f4
+	value read = 10400028
+Reading VA 0x1f8, size 4
+main translating
+	Translate 0x1f8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f8
+	value read = 00000000
+Reading VA 0x1fc, size 4
+main translating
+	Translate 0x1fc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1fc
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x200, size 4
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+200 missed in TLB.
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x200
+	value read = 00000000
+Reading VA 0x204, size 4
+main translating
+	Translate 0x204, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x204
+	value read = 00401821
+Reading VA 0x208, size 4
+main translating
+	Translate 0x208, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x208
+	value read = 00031080
+Reading VA 0x20c, size 4
+main translating
+	Translate 0x20c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x20c
+	value read = 3c030000
+Reading VA 0x210, size 4
+main translating
+	Translate 0x210, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x210
+	value read = 246302f0
+Reading VA 0x214, size 4
+main translating
+	Translate 0x214, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x214
+	value read = 00621021
+Reading VA 0x218, size 4
+main translating
+	Translate 0x218, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x218
+	value read = 8c430000
+Reading VA 0x2f4, size 4
+main translating
+	Translate 0x2f4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+	value read = 00000004
+Reading VA 0x21c, size 4
+main translating
+	Translate 0x21c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x21c
+	value read = 00000000
+Reading VA 0x220, size 4
+main translating
+	Translate 0x220, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x220
+	value read = afc30018
+Writing VA 0x6e0, size 4, value 0x4
+main translating
+	Translate 0x6e0, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+Reading VA 0x224, size 4
+main translating
+	Translate 0x224, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x224
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x228, size 4
+main translating
+	Translate 0x228, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x228
+	value read = 00000000
+Reading VA 0x22c, size 4
+main translating
+	Translate 0x22c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x22c
+	value read = 00401821
+Reading VA 0x230, size 4
+main translating
+	Translate 0x230, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x230
+	value read = 00031080
+Reading VA 0x234, size 4
+main translating
+	Translate 0x234, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x234
+	value read = 3c030000
+Reading VA 0x238, size 4
+main translating
+	Translate 0x238, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x238
+	value read = 246302f0
+Reading VA 0x23c, size 4
+main translating
+	Translate 0x23c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x23c
+	value read = 00621021
+Reading VA 0x240, size 4
+main translating
+	Translate 0x240, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x240
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x244, size 4
+main translating
+	Translate 0x244, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x244
+	value read = 00000000
+Reading VA 0x248, size 4
+main translating
+	Translate 0x248, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x248
+	value read = 24830001
+Reading VA 0x24c, size 4
+main translating
+	Translate 0x24c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x24c
+	value read = 00602021
+Reading VA 0x250, size 4
+main translating
+	Translate 0x250, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x250
+	value read = 00041880
+Reading VA 0x254, size 4
+main translating
+	Translate 0x254, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x254
+	value read = 3c040000
+Reading VA 0x258, size 4
+main translating
+	Translate 0x258, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x258
+	value read = 248402f0
+Reading VA 0x25c, size 4
+main translating
+	Translate 0x25c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x25c
+	value read = 00831821
+Reading VA 0x260, size 4
+main translating
+	Translate 0x260, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x260
+	value read = 8c640000
+Reading VA 0x2f8, size 4
+main translating
+	Translate 0x2f8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+	value read = 00000002
+Reading VA 0x264, size 4
+main translating
+	Translate 0x264, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x264
+	value read = 00000000
+Reading VA 0x268, size 4
+main translating
+	Translate 0x268, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x268
+	value read = ac440000
+Writing VA 0x2f4, size 4, value 0x2
+main translating
+	Translate 0x2f4, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+Reading VA 0x26c, size 4
+main translating
+	Translate 0x26c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x26c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x270, size 4
+main translating
+	Translate 0x270, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x270
+	value read = 00000000
+Reading VA 0x274, size 4
+main translating
+	Translate 0x274, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x274
+	value read = 24620001
+Reading VA 0x278, size 4
+main translating
+	Translate 0x278, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x278
+	value read = 00401821
+Reading VA 0x27c, size 4
+main translating
+	Translate 0x27c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x27c
+	value read = 00031080
+Reading VA 0x280, size 4
+main translating
+	Translate 0x280, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x280
+	value read = 3c030000
+Reading VA 0x284, size 4
+main translating
+	Translate 0x284, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x284
+	value read = 246302f0
+Reading VA 0x288, size 4
+main translating
+	Translate 0x288, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x288
+	value read = 00621021
+Reading VA 0x28c, size 4
+main translating
+	Translate 0x28c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x28c
+	value read = 8fc30018
+Reading VA 0x6e0, size 4
+main translating
+	Translate 0x6e0, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+	value read = 00000004
+Reading VA 0x290, size 4
+main translating
+	Translate 0x290, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x290
+	value read = 00000000
+Reading VA 0x294, size 4
+main translating
+	Translate 0x294, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x294
+	value read = ac430000
+Writing VA 0x2f8, size 4, value 0x4
+main translating
+	Translate 0x2f8, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+Reading VA 0x298, size 4
+main translating
+	Translate 0x298, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x298
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x29c, size 4
+main translating
+	Translate 0x29c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x29c
+	value read = 00000000
+Reading VA 0x2a0, size 4
+main translating
+	Translate 0x2a0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a0
+	value read = 24430001
+Reading VA 0x2a4, size 4
+main translating
+	Translate 0x2a4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a4
+	value read = 0800005f
+Reading VA 0x2a8, size 4
+main translating
+	Translate 0x2a8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a8
+	value read = afc30014
+Writing VA 0x6dc, size 4, value 0x2
+main translating
+	Translate 0x6dc, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+Reading VA 0x17c, size 4
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+17c missed in TLB.
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x17c
+	value read = 24020003
+Reading VA 0x180, size 4
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+180 missed in TLB.
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x180
+	value read = 8fc30010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x184, size 4
+main translating
+	Translate 0x184, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x184
+	value read = 00000000
+Reading VA 0x188, size 4
+main translating
+	Translate 0x188, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x188
+	value read = 00431023
+Reading VA 0x18c, size 4
+main translating
+	Translate 0x18c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x18c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x190, size 4
+main translating
+	Translate 0x190, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x190
+	value read = 00000000
+Reading VA 0x194, size 4
+main translating
+	Translate 0x194, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x194
+	value read = 0062102a
+Reading VA 0x198, size 4
+main translating
+	Translate 0x198, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x198
+	value read = 14400003
+Reading VA 0x19c, size 4
+main translating
+	Translate 0x19c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x19c
+	value read = 00000000
+Reading VA 0x1a8, size 4
+main translating
+	Translate 0x1a8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a8
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x1ac, size 4
+main translating
+	Translate 0x1ac, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ac
+	value read = 00000000
+Reading VA 0x1b0, size 4
+main translating
+	Translate 0x1b0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b0
+	value read = 00401821
+Reading VA 0x1b4, size 4
+main translating
+	Translate 0x1b4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b4
+	value read = 00031080
+Reading VA 0x1b8, size 4
+main translating
+	Translate 0x1b8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b8
+	value read = 3c030000
+Reading VA 0x1bc, size 4
+main translating
+	Translate 0x1bc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1bc
+	value read = 246302f0
+Reading VA 0x1c0, size 4
+main translating
+	Translate 0x1c0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c0
+	value read = 00621021
+Reading VA 0x1c4, size 4
+main translating
+	Translate 0x1c4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c4
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x1c8, size 4
+main translating
+	Translate 0x1c8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c8
+	value read = 00000000
+Reading VA 0x1cc, size 4
+main translating
+	Translate 0x1cc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1cc
+	value read = 24830001
+Reading VA 0x1d0, size 4
+main translating
+	Translate 0x1d0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d0
+	value read = 00602021
+Reading VA 0x1d4, size 4
+main translating
+	Translate 0x1d4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d4
+	value read = 00041880
+Reading VA 0x1d8, size 4
+main translating
+	Translate 0x1d8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d8
+	value read = 3c040000
+Reading VA 0x1dc, size 4
+main translating
+	Translate 0x1dc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1dc
+	value read = 248402f0
+Reading VA 0x1e0, size 4
+main translating
+	Translate 0x1e0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e0
+	value read = 00831821
+Reading VA 0x1e4, size 4
+main translating
+	Translate 0x1e4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e4
+	value read = 8c420000
+Reading VA 0x2f8, size 4
+main translating
+	Translate 0x2f8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+	value read = 00000004
+Reading VA 0x1e8, size 4
+main translating
+	Translate 0x1e8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e8
+	value read = 8c630000
+Reading VA 0x2fc, size 4
+main translating
+	Translate 0x2fc, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2fc
+	value read = 00000001
+Reading VA 0x1ec, size 4
+main translating
+	Translate 0x1ec, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ec
+	value read = 00000000
+Reading VA 0x1f0, size 4
+main translating
+	Translate 0x1f0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f0
+	value read = 0062102a
+Reading VA 0x1f4, size 4
+main translating
+	Translate 0x1f4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f4
+	value read = 10400028
+Reading VA 0x1f8, size 4
+main translating
+	Translate 0x1f8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f8
+	value read = 00000000
+Reading VA 0x1fc, size 4
+main translating
+	Translate 0x1fc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1fc
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x200, size 4
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+200 missed in TLB.
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x200
+	value read = 00000000
+Reading VA 0x204, size 4
+main translating
+	Translate 0x204, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x204
+	value read = 00401821
+Reading VA 0x208, size 4
+main translating
+	Translate 0x208, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x208
+	value read = 00031080
+Reading VA 0x20c, size 4
+main translating
+	Translate 0x20c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x20c
+	value read = 3c030000
+Reading VA 0x210, size 4
+main translating
+	Translate 0x210, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x210
+	value read = 246302f0
+Reading VA 0x214, size 4
+main translating
+	Translate 0x214, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x214
+	value read = 00621021
+Reading VA 0x218, size 4
+main translating
+	Translate 0x218, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x218
+	value read = 8c430000
+Reading VA 0x2f8, size 4
+main translating
+	Translate 0x2f8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+	value read = 00000004
+Reading VA 0x21c, size 4
+main translating
+	Translate 0x21c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x21c
+	value read = 00000000
+Reading VA 0x220, size 4
+main translating
+	Translate 0x220, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x220
+	value read = afc30018
+Writing VA 0x6e0, size 4, value 0x4
+main translating
+	Translate 0x6e0, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+Reading VA 0x224, size 4
+main translating
+	Translate 0x224, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x224
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x228, size 4
+main translating
+	Translate 0x228, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x228
+	value read = 00000000
+Reading VA 0x22c, size 4
+main translating
+	Translate 0x22c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x22c
+	value read = 00401821
+Reading VA 0x230, size 4
+main translating
+	Translate 0x230, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x230
+	value read = 00031080
+Reading VA 0x234, size 4
+main translating
+	Translate 0x234, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x234
+	value read = 3c030000
+Reading VA 0x238, size 4
+main translating
+	Translate 0x238, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x238
+	value read = 246302f0
+Reading VA 0x23c, size 4
+main translating
+	Translate 0x23c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x23c
+	value read = 00621021
+Reading VA 0x240, size 4
+main translating
+	Translate 0x240, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x240
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x244, size 4
+main translating
+	Translate 0x244, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x244
+	value read = 00000000
+Reading VA 0x248, size 4
+main translating
+	Translate 0x248, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x248
+	value read = 24830001
+Reading VA 0x24c, size 4
+main translating
+	Translate 0x24c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x24c
+	value read = 00602021
+Reading VA 0x250, size 4
+main translating
+	Translate 0x250, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x250
+	value read = 00041880
+Reading VA 0x254, size 4
+main translating
+	Translate 0x254, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x254
+	value read = 3c040000
+Reading VA 0x258, size 4
+main translating
+	Translate 0x258, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x258
+	value read = 248402f0
+Reading VA 0x25c, size 4
+main translating
+	Translate 0x25c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x25c
+	value read = 00831821
+Reading VA 0x260, size 4
+main translating
+	Translate 0x260, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x260
+	value read = 8c640000
+Reading VA 0x2fc, size 4
+main translating
+	Translate 0x2fc, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2fc
+	value read = 00000001
+Reading VA 0x264, size 4
+main translating
+	Translate 0x264, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x264
+	value read = 00000000
+Reading VA 0x268, size 4
+main translating
+	Translate 0x268, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x268
+	value read = ac440000
+Writing VA 0x2f8, size 4, value 0x1
+main translating
+	Translate 0x2f8, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+Reading VA 0x26c, size 4
+main translating
+	Translate 0x26c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x26c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x270, size 4
+main translating
+	Translate 0x270, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x270
+	value read = 00000000
+Reading VA 0x274, size 4
+main translating
+	Translate 0x274, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x274
+	value read = 24620001
+Reading VA 0x278, size 4
+main translating
+	Translate 0x278, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x278
+	value read = 00401821
+Reading VA 0x27c, size 4
+main translating
+	Translate 0x27c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x27c
+	value read = 00031080
+Reading VA 0x280, size 4
+main translating
+	Translate 0x280, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x280
+	value read = 3c030000
+Reading VA 0x284, size 4
+main translating
+	Translate 0x284, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x284
+	value read = 246302f0
+Reading VA 0x288, size 4
+main translating
+	Translate 0x288, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x288
+	value read = 00621021
+Reading VA 0x28c, size 4
+main translating
+	Translate 0x28c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x28c
+	value read = 8fc30018
+Reading VA 0x6e0, size 4
+main translating
+	Translate 0x6e0, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+	value read = 00000004
+Reading VA 0x290, size 4
+main translating
+	Translate 0x290, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x290
+	value read = 00000000
+Reading VA 0x294, size 4
+main translating
+	Translate 0x294, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x294
+	value read = ac430000
+Writing VA 0x2fc, size 4, value 0x4
+main translating
+	Translate 0x2fc, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2fc
+Reading VA 0x298, size 4
+main translating
+	Translate 0x298, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x298
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x29c, size 4
+main translating
+	Translate 0x29c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x29c
+	value read = 00000000
+Reading VA 0x2a0, size 4
+main translating
+	Translate 0x2a0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a0
+	value read = 24430001
+Reading VA 0x2a4, size 4
+main translating
+	Translate 0x2a4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a4
+	value read = 0800005f
+Reading VA 0x2a8, size 4
+main translating
+	Translate 0x2a8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a8
+	value read = afc30014
+Writing VA 0x6dc, size 4, value 0x3
+main translating
+	Translate 0x6dc, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+Reading VA 0x17c, size 4
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+17c missed in TLB.
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x17c
+	value read = 24020003
+Reading VA 0x180, size 4
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+180 missed in TLB.
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x180
+	value read = 8fc30010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x184, size 4
+main translating
+	Translate 0x184, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x184
+	value read = 00000000
+Reading VA 0x188, size 4
+main translating
+	Translate 0x188, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x188
+	value read = 00431023
+Reading VA 0x18c, size 4
+main translating
+	Translate 0x18c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x18c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000003
+Reading VA 0x190, size 4
+main translating
+	Translate 0x190, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x190
+	value read = 00000000
+Reading VA 0x194, size 4
+main translating
+	Translate 0x194, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x194
+	value read = 0062102a
+Reading VA 0x198, size 4
+main translating
+	Translate 0x198, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x198
+	value read = 14400003
+Reading VA 0x19c, size 4
+main translating
+	Translate 0x19c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x19c
+	value read = 00000000
+Reading VA 0x1a0, size 4
+main translating
+	Translate 0x1a0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a0
+	value read = 080000ab
+Reading VA 0x1a4, size 4
+main translating
+	Translate 0x1a4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a4
+	value read = 00000000
+Reading VA 0x2ac, size 4
+main translating
+	Translate 0x2ac, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2ac
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000000
+Reading VA 0x2b0, size 4
+main translating
+	Translate 0x2b0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b0
+	value read = 00000000
+Reading VA 0x2b4, size 4
+main translating
+	Translate 0x2b4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b4
+	value read = 24430001
+Reading VA 0x2b8, size 4
+main translating
+	Translate 0x2b8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b8
+	value read = 08000054
+Reading VA 0x2bc, size 4
+main translating
+	Translate 0x2bc, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2bc
+	value read = afc30010
+Writing VA 0x6d8, size 4, value 0x1
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0x150, size 4
+main translating
+	Translate 0x150, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x150
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x154, size 4
+main translating
+	Translate 0x154, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x154
+	value read = 00000000
+Reading VA 0x158, size 4
+main translating
+	Translate 0x158, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x158
+	value read = 28430003
+Reading VA 0x15c, size 4
+main translating
+	Translate 0x15c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x15c
+	value read = 14600003
+Reading VA 0x160, size 4
+main translating
+	Translate 0x160, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x160
+	value read = 00000000
+Reading VA 0x16c, size 4
+main translating
+	Translate 0x16c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x16c
+	value read = 00000000
+Reading VA 0x170, size 4
+main translating
+	Translate 0x170, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x170
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x174, size 4
+main translating
+	Translate 0x174, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x174
+	value read = 00000000
+Reading VA 0x178, size 4
+main translating
+	Translate 0x178, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x178
+	value read = afc20014
+Writing VA 0x6dc, size 4, value 0x1
+main translating
+	Translate 0x6dc, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+Reading VA 0x17c, size 4
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x17c
+	value read = 24020003
+Reading VA 0x180, size 4
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x180
+	value read = 8fc30010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x184, size 4
+main translating
+	Translate 0x184, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x184
+	value read = 00000000
+Reading VA 0x188, size 4
+main translating
+	Translate 0x188, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x188
+	value read = 00431023
+Reading VA 0x18c, size 4
+main translating
+	Translate 0x18c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x18c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x190, size 4
+main translating
+	Translate 0x190, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x190
+	value read = 00000000
+Reading VA 0x194, size 4
+main translating
+	Translate 0x194, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x194
+	value read = 0062102a
+Reading VA 0x198, size 4
+main translating
+	Translate 0x198, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x198
+	value read = 14400003
+Reading VA 0x19c, size 4
+main translating
+	Translate 0x19c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x19c
+	value read = 00000000
+Reading VA 0x1a8, size 4
+main translating
+	Translate 0x1a8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a8
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x1ac, size 4
+main translating
+	Translate 0x1ac, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ac
+	value read = 00000000
+Reading VA 0x1b0, size 4
+main translating
+	Translate 0x1b0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b0
+	value read = 00401821
+Reading VA 0x1b4, size 4
+main translating
+	Translate 0x1b4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b4
+	value read = 00031080
+Reading VA 0x1b8, size 4
+main translating
+	Translate 0x1b8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1b8
+	value read = 3c030000
+Reading VA 0x1bc, size 4
+main translating
+	Translate 0x1bc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1bc
+	value read = 246302f0
+Reading VA 0x1c0, size 4
+main translating
+	Translate 0x1c0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c0
+	value read = 00621021
+Reading VA 0x1c4, size 4
+main translating
+	Translate 0x1c4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c4
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x1c8, size 4
+main translating
+	Translate 0x1c8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1c8
+	value read = 00000000
+Reading VA 0x1cc, size 4
+main translating
+	Translate 0x1cc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1cc
+	value read = 24830001
+Reading VA 0x1d0, size 4
+main translating
+	Translate 0x1d0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d0
+	value read = 00602021
+Reading VA 0x1d4, size 4
+main translating
+	Translate 0x1d4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d4
+	value read = 00041880
+Reading VA 0x1d8, size 4
+main translating
+	Translate 0x1d8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1d8
+	value read = 3c040000
+Reading VA 0x1dc, size 4
+main translating
+	Translate 0x1dc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1dc
+	value read = 248402f0
+Reading VA 0x1e0, size 4
+main translating
+	Translate 0x1e0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e0
+	value read = 00831821
+Reading VA 0x1e4, size 4
+main translating
+	Translate 0x1e4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e4
+	value read = 8c420000
+Reading VA 0x2f4, size 4
+main translating
+	Translate 0x2f4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+	value read = 00000002
+Reading VA 0x1e8, size 4
+main translating
+	Translate 0x1e8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1e8
+	value read = 8c630000
+Reading VA 0x2f8, size 4
+main translating
+	Translate 0x2f8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+	value read = 00000001
+Reading VA 0x1ec, size 4
+main translating
+	Translate 0x1ec, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1ec
+	value read = 00000000
+Reading VA 0x1f0, size 4
+main translating
+	Translate 0x1f0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f0
+	value read = 0062102a
+Reading VA 0x1f4, size 4
+main translating
+	Translate 0x1f4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f4
+	value read = 10400028
+Reading VA 0x1f8, size 4
+main translating
+	Translate 0x1f8, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1f8
+	value read = 00000000
+Reading VA 0x1fc, size 4
+main translating
+	Translate 0x1fc, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1fc
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x200, size 4
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+200 missed in TLB.
+main translating
+	Translate 0x200, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x200
+	value read = 00000000
+Reading VA 0x204, size 4
+main translating
+	Translate 0x204, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x204
+	value read = 00401821
+Reading VA 0x208, size 4
+main translating
+	Translate 0x208, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x208
+	value read = 00031080
+Reading VA 0x20c, size 4
+main translating
+	Translate 0x20c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x20c
+	value read = 3c030000
+Reading VA 0x210, size 4
+main translating
+	Translate 0x210, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x210
+	value read = 246302f0
+Reading VA 0x214, size 4
+main translating
+	Translate 0x214, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x214
+	value read = 00621021
+Reading VA 0x218, size 4
+main translating
+	Translate 0x218, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x218
+	value read = 8c430000
+Reading VA 0x2f4, size 4
+main translating
+	Translate 0x2f4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+	value read = 00000002
+Reading VA 0x21c, size 4
+main translating
+	Translate 0x21c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x21c
+	value read = 00000000
+Reading VA 0x220, size 4
+main translating
+	Translate 0x220, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x220
+	value read = afc30018
+Writing VA 0x6e0, size 4, value 0x2
+main translating
+	Translate 0x6e0, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+Reading VA 0x224, size 4
+main translating
+	Translate 0x224, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x224
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x228, size 4
+main translating
+	Translate 0x228, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x228
+	value read = 00000000
+Reading VA 0x22c, size 4
+main translating
+	Translate 0x22c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x22c
+	value read = 00401821
+Reading VA 0x230, size 4
+main translating
+	Translate 0x230, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x230
+	value read = 00031080
+Reading VA 0x234, size 4
+main translating
+	Translate 0x234, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x234
+	value read = 3c030000
+Reading VA 0x238, size 4
+main translating
+	Translate 0x238, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x238
+	value read = 246302f0
+Reading VA 0x23c, size 4
+main translating
+	Translate 0x23c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x23c
+	value read = 00621021
+Reading VA 0x240, size 4
+main translating
+	Translate 0x240, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x240
+	value read = 8fc40014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x244, size 4
+main translating
+	Translate 0x244, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x244
+	value read = 00000000
+Reading VA 0x248, size 4
+main translating
+	Translate 0x248, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x248
+	value read = 24830001
+Reading VA 0x24c, size 4
+main translating
+	Translate 0x24c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x24c
+	value read = 00602021
+Reading VA 0x250, size 4
+main translating
+	Translate 0x250, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x250
+	value read = 00041880
+Reading VA 0x254, size 4
+main translating
+	Translate 0x254, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x254
+	value read = 3c040000
+Reading VA 0x258, size 4
+main translating
+	Translate 0x258, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x258
+	value read = 248402f0
+Reading VA 0x25c, size 4
+main translating
+	Translate 0x25c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x25c
+	value read = 00831821
+Reading VA 0x260, size 4
+main translating
+	Translate 0x260, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x260
+	value read = 8c640000
+Reading VA 0x2f8, size 4
+main translating
+	Translate 0x2f8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+	value read = 00000001
+Reading VA 0x264, size 4
+main translating
+	Translate 0x264, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x264
+	value read = 00000000
+Reading VA 0x268, size 4
+main translating
+	Translate 0x268, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x268
+	value read = ac440000
+Writing VA 0x2f4, size 4, value 0x1
+main translating
+	Translate 0x2f4, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f4
+Reading VA 0x26c, size 4
+main translating
+	Translate 0x26c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x26c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x270, size 4
+main translating
+	Translate 0x270, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x270
+	value read = 00000000
+Reading VA 0x274, size 4
+main translating
+	Translate 0x274, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x274
+	value read = 24620001
+Reading VA 0x278, size 4
+main translating
+	Translate 0x278, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x278
+	value read = 00401821
+Reading VA 0x27c, size 4
+main translating
+	Translate 0x27c, read: vpn:4, ppn:4
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x27c
+	value read = 00031080
+Reading VA 0x280, size 4
+main translating
+	Translate 0x280, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x280
+	value read = 3c030000
+Reading VA 0x284, size 4
+main translating
+	Translate 0x284, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x284
+	value read = 246302f0
+Reading VA 0x288, size 4
+main translating
+	Translate 0x288, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x288
+	value read = 00621021
+Reading VA 0x28c, size 4
+main translating
+	Translate 0x28c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x28c
+	value read = 8fc30018
+Reading VA 0x6e0, size 4
+main translating
+	Translate 0x6e0, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6e0
+	value read = 00000002
+Reading VA 0x290, size 4
+main translating
+	Translate 0x290, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x290
+	value read = 00000000
+Reading VA 0x294, size 4
+main translating
+	Translate 0x294, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x294
+	value read = ac430000
+Writing VA 0x2f8, size 4, value 0x2
+main translating
+	Translate 0x2f8, write: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f8
+Reading VA 0x298, size 4
+main translating
+	Translate 0x298, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x298
+	value read = 8fc20014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000001
+Reading VA 0x29c, size 4
+main translating
+	Translate 0x29c, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x29c
+	value read = 00000000
+Reading VA 0x2a0, size 4
+main translating
+	Translate 0x2a0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a0
+	value read = 24430001
+Reading VA 0x2a4, size 4
+main translating
+	Translate 0x2a4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a4
+	value read = 0800005f
+Reading VA 0x2a8, size 4
+main translating
+	Translate 0x2a8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2a8
+	value read = afc30014
+Writing VA 0x6dc, size 4, value 0x2
+main translating
+	Translate 0x6dc, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+Reading VA 0x17c, size 4
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+17c missed in TLB.
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x17c
+	value read = 24020003
+Reading VA 0x180, size 4
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+180 missed in TLB.
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x180
+	value read = 8fc30010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x184, size 4
+main translating
+	Translate 0x184, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x184
+	value read = 00000000
+Reading VA 0x188, size 4
+main translating
+	Translate 0x188, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x188
+	value read = 00431023
+Reading VA 0x18c, size 4
+main translating
+	Translate 0x18c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x18c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x190, size 4
+main translating
+	Translate 0x190, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x190
+	value read = 00000000
+Reading VA 0x194, size 4
+main translating
+	Translate 0x194, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x194
+	value read = 0062102a
+Reading VA 0x198, size 4
+main translating
+	Translate 0x198, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x198
+	value read = 14400003
+Reading VA 0x19c, size 4
+main translating
+	Translate 0x19c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x19c
+	value read = 00000000
+Reading VA 0x1a0, size 4
+main translating
+	Translate 0x1a0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a0
+	value read = 080000ab
+Reading VA 0x1a4, size 4
+main translating
+	Translate 0x1a4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a4
+	value read = 00000000
+Reading VA 0x2ac, size 4
+main translating
+	Translate 0x2ac, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2ac
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000001
+Reading VA 0x2b0, size 4
+main translating
+	Translate 0x2b0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b0
+	value read = 00000000
+Reading VA 0x2b4, size 4
+main translating
+	Translate 0x2b4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b4
+	value read = 24430001
+Reading VA 0x2b8, size 4
+main translating
+	Translate 0x2b8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b8
+	value read = 08000054
+Reading VA 0x2bc, size 4
+main translating
+	Translate 0x2bc, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2bc
+	value read = afc30010
+Writing VA 0x6d8, size 4, value 0x2
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0x150, size 4
+main translating
+	Translate 0x150, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x150
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0x154, size 4
+main translating
+	Translate 0x154, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x154
+	value read = 00000000
+Reading VA 0x158, size 4
+main translating
+	Translate 0x158, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x158
+	value read = 28430003
+Reading VA 0x15c, size 4
+main translating
+	Translate 0x15c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x15c
+	value read = 14600003
+Reading VA 0x160, size 4
+main translating
+	Translate 0x160, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x160
+	value read = 00000000
+Reading VA 0x16c, size 4
+main translating
+	Translate 0x16c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x16c
+	value read = 00000000
+Reading VA 0x170, size 4
+main translating
+	Translate 0x170, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x170
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0x174, size 4
+main translating
+	Translate 0x174, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x174
+	value read = 00000000
+Reading VA 0x178, size 4
+main translating
+	Translate 0x178, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x178
+	value read = afc20014
+Writing VA 0x6dc, size 4, value 0x2
+main translating
+	Translate 0x6dc, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+Reading VA 0x17c, size 4
+main translating
+	Translate 0x17c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x17c
+	value read = 24020003
+Reading VA 0x180, size 4
+main translating
+	Translate 0x180, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x180
+	value read = 8fc30010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0x184, size 4
+main translating
+	Translate 0x184, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x184
+	value read = 00000000
+Reading VA 0x188, size 4
+main translating
+	Translate 0x188, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x188
+	value read = 00431023
+Reading VA 0x18c, size 4
+main translating
+	Translate 0x18c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x18c
+	value read = 8fc30014
+Reading VA 0x6dc, size 4
+main translating
+	Translate 0x6dc, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6dc
+	value read = 00000002
+Reading VA 0x190, size 4
+main translating
+	Translate 0x190, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x190
+	value read = 00000000
+Reading VA 0x194, size 4
+main translating
+	Translate 0x194, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x194
+	value read = 0062102a
+Reading VA 0x198, size 4
+main translating
+	Translate 0x198, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x198
+	value read = 14400003
+Reading VA 0x19c, size 4
+main translating
+	Translate 0x19c, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x19c
+	value read = 00000000
+Reading VA 0x1a0, size 4
+main translating
+	Translate 0x1a0, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a0
+	value read = 080000ab
+Reading VA 0x1a4, size 4
+main translating
+	Translate 0x1a4, read: vpn:3, ppn:3
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x1a4
+	value read = 00000000
+Reading VA 0x2ac, size 4
+main translating
+	Translate 0x2ac, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2ac
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000002
+Reading VA 0x2b0, size 4
+main translating
+	Translate 0x2b0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b0
+	value read = 00000000
+Reading VA 0x2b4, size 4
+main translating
+	Translate 0x2b4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b4
+	value read = 24430001
+Reading VA 0x2b8, size 4
+main translating
+	Translate 0x2b8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2b8
+	value read = 08000054
+Reading VA 0x2bc, size 4
+main translating
+	Translate 0x2bc, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2bc
+	value read = afc30010
+Writing VA 0x6d8, size 4, value 0x3
+main translating
+	Translate 0x6d8, write: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+Reading VA 0x150, size 4
+main translating
+	Translate 0x150, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x150
+	value read = 8fc20010
+Reading VA 0x6d8, size 4
+main translating
+	Translate 0x6d8, read: vpn:13, ppn:13
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x6d8
+	value read = 00000003
+Reading VA 0x154, size 4
+main translating
+	Translate 0x154, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x154
+	value read = 00000000
+Reading VA 0x158, size 4
+main translating
+	Translate 0x158, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x158
+	value read = 28430003
+Reading VA 0x15c, size 4
+main translating
+	Translate 0x15c, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x15c
+	value read = 14600003
+Reading VA 0x160, size 4
+main translating
+	Translate 0x160, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x160
+	value read = 00000000
+Reading VA 0x164, size 4
+main translating
+	Translate 0x164, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x164
+	value read = 080000b0
+Reading VA 0x168, size 4
+main translating
+	Translate 0x168, read: vpn:2, ppn:2
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x168
+	value read = 00000000
+Reading VA 0x2c0, size 4
+main translating
+	Translate 0x2c0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2c0
+	value read = 3c040000
+Reading VA 0x2c4, size 4
+main translating
+	Translate 0x2c4, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2c4
+	value read = 8c8402f0
+Reading VA 0x2f0, size 4
+main translating
+	Translate 0x2f0, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2f0
+	value read = 00000003
+Reading VA 0x2c8, size 4
+main translating
+	Translate 0x2c8, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2c8
+	value read = 0c000008
+Reading VA 0x2cc, size 4
+main translating
+	Translate 0x2cc, read: vpn:5, ppn:5
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x2cc
+	value read = 00000000
+Reading VA 0x20, size 4
+main translating
+	Translate 0x20, read: vpn:0, ppn:0
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+TLB MISS, use LRU swap
+20 missed in TLB.
+main translating
+	Translate 0x20, read: vpn:0, ppn:0
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x20
+	value read = 24020001
+Reading VA 0x24, size 4
+main translating
+	Translate 0x24, read: vpn:0, ppn:0
+0 147057416 tlb == null?
+*** io valid TLB entry found for this virtual page!
+*** no valid TLB entry found for this virtual page!
+phys addr = 0x24
+	value read = 0000000c
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 500, idle 0, system 10, user 490
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0, TLB misses 20
+Network I/O: packets received 0, sent 0
+
+Cleaning up...

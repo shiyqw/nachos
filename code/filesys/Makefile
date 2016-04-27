@@ -41,11 +41,39 @@ main.o: ../threads/main.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/system.h ../threads/thread.h \
  ../machine/machine.h ../threads/utility.h ../machine/translate.h \
- ../machine/disk.h ../userprog/addrspace.h ../filesys/filesys.h \
- ../filesys/openfile.h ../threads/scheduler.h ../threads/list.h \
- ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
- ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
- ../threads/synch.h
+ ../machine/disk.h ../userprog/bitmap.h ../filesys/openfile.h \
+ ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
+ ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
+ ../threads/list.h ../machine/stats.h ../machine/timer.h \
+ ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 list.o: ../threads/list.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/list.h ../threads/utility.h \
  ../threads/bool.h ../machine/sysdep.h ../threads/copyright.h \
@@ -77,10 +105,39 @@ scheduler.o: ../threads/scheduler.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/system.h ../machine/interrupt.h ../threads/list.h \
- ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
- ../machine/disk.h ../threads/synch.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/system.h \
+ ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
+ ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
+ ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 synch.o: ../threads/synch.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/synch.h ../threads/thread.h \
  ../threads/utility.h ../threads/bool.h ../machine/sysdep.h \
@@ -96,11 +153,40 @@ synch.o: ../threads/synch.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../machine/machine.h ../threads/utility.h \
- ../machine/translate.h ../machine/disk.h ../userprog/addrspace.h \
- ../filesys/filesys.h ../filesys/openfile.h ../threads/list.h \
- ../threads/system.h ../threads/scheduler.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h
+ ../machine/translate.h ../machine/disk.h ../userprog/bitmap.h \
+ ../filesys/openfile.h ../userprog/addrspace.h ../filesys/filesys.h \
+ ../filesys/openfile.h ../threads/list.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../threads/system.h \
+ ../threads/scheduler.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h
 synchlist.o: ../threads/synchlist.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/synchlist.h ../threads/list.h \
  ../threads/utility.h ../threads/bool.h ../machine/sysdep.h \
@@ -117,8 +203,36 @@ synchlist.o: ../threads/synchlist.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/synch.h ../threads/thread.h \
  ../machine/machine.h ../threads/utility.h ../machine/translate.h \
- ../machine/disk.h ../userprog/addrspace.h ../filesys/filesys.h \
- ../filesys/openfile.h
+ ../machine/disk.h ../userprog/bitmap.h ../filesys/openfile.h \
+ ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 system.o: ../threads/system.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/system.h ../threads/utility.h \
  ../threads/bool.h ../machine/sysdep.h ../threads/copyright.h \
@@ -135,10 +249,40 @@ system.o: ../threads/system.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc /usr/include/c++/4.8/list \
+ /usr/include/c++/4.8/bits/stl_list.h /usr/include/c++/4.8/bits/list.tcc
 thread.o: ../threads/thread.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/thread.h ../threads/utility.h \
  ../threads/bool.h ../machine/sysdep.h ../threads/copyright.h \
@@ -154,12 +298,42 @@ thread.o: ../threads/thread.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../machine/machine.h ../threads/utility.h \
- ../machine/translate.h ../machine/disk.h ../userprog/addrspace.h \
- ../filesys/filesys.h ../filesys/openfile.h ../threads/switch.h \
- ../threads/synch.h ../threads/list.h ../threads/system.h \
+ ../machine/translate.h ../machine/disk.h ../userprog/bitmap.h \
+ ../filesys/openfile.h ../userprog/addrspace.h ../filesys/filesys.h \
+ ../filesys/openfile.h ../threads/switch.h ../threads/synch.h \
+ ../threads/list.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../threads/system.h \
  ../threads/scheduler.h ../machine/interrupt.h ../threads/list.h \
  ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
- ../machine/disk.h ../threads/synch.h
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/list \
+ /usr/include/c++/4.8/bits/stl_list.h /usr/include/c++/4.8/bits/list.tcc
 utility.o: ../threads/utility.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/utility.h ../threads/bool.h \
  ../machine/sysdep.h ../threads/copyright.h /usr/include/stdio.h \
@@ -190,10 +364,39 @@ threadtest.o: ../threads/threadtest.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../threads/synch.h \
  ../machine/elevatortest.h
 interrupt.o: ../machine/interrupt.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/interrupt.h ../threads/list.h \
@@ -211,10 +414,39 @@ interrupt.o: ../machine/interrupt.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/system.h ../threads/thread.h \
  ../machine/machine.h ../threads/utility.h ../machine/translate.h \
- ../machine/disk.h ../userprog/addrspace.h ../filesys/filesys.h \
- ../filesys/openfile.h ../threads/scheduler.h ../threads/list.h \
- ../machine/interrupt.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h
+ ../machine/disk.h ../userprog/bitmap.h ../filesys/openfile.h \
+ ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
+ ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 sysdep.o: ../machine/sysdep.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h /usr/include/stdio.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -274,10 +506,39 @@ sysdep.o: ../machine/sysdep.cc /usr/include/stdc-predef.h \
  ../threads/utility.h ../threads/bool.h ../machine/sysdep.h \
  ../threads/system.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
- ../machine/disk.h ../threads/synch.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../machine/stats.h \
+ ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
+ ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 stats.o: ../machine/stats.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/utility.h ../threads/copyright.h \
  ../threads/bool.h ../machine/sysdep.h /usr/include/stdio.h \
@@ -308,11 +569,39 @@ timer.o: ../machine/timer.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/system.h ../threads/utility.h \
  ../threads/thread.h ../machine/machine.h ../machine/translate.h \
- ../machine/disk.h ../userprog/addrspace.h ../filesys/filesys.h \
- ../filesys/openfile.h ../threads/scheduler.h ../threads/list.h \
- ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
- ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
- ../threads/synch.h
+ ../machine/disk.h ../userprog/bitmap.h ../filesys/openfile.h \
+ ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
+ ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
+ ../threads/list.h ../machine/stats.h ../machine/timer.h \
+ ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 elevatortest.o: ../machine/elevatortest.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/elevatortest.h ../machine/elevator.h \
  ../threads/utility.h ../threads/copyright.h ../threads/bool.h \
@@ -329,9 +618,37 @@ elevatortest.o: ../machine/elevatortest.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/list.h ../threads/utility.h \
  ../threads/synch.h ../threads/thread.h ../machine/machine.h \
- ../machine/translate.h ../machine/disk.h ../userprog/addrspace.h \
- ../filesys/filesys.h ../filesys/openfile.h ../threads/list.h \
- ../threads/thread.h
+ ../machine/translate.h ../machine/disk.h ../userprog/bitmap.h \
+ ../filesys/openfile.h ../userprog/addrspace.h ../filesys/filesys.h \
+ ../filesys/openfile.h ../threads/list.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../threads/thread.h
 elevator.o: ../machine/elevator.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/elevator.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -348,11 +665,39 @@ elevator.o: ../machine/elevator.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/list.h ../threads/utility.h \
  ../threads/system.h ../threads/thread.h ../machine/machine.h \
- ../machine/translate.h ../machine/disk.h ../userprog/addrspace.h \
- ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
- ../threads/list.h ../machine/interrupt.h ../machine/stats.h \
- ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
- ../threads/synch.h
+ ../machine/translate.h ../machine/disk.h ../userprog/bitmap.h \
+ ../filesys/openfile.h ../userprog/addrspace.h ../filesys/filesys.h \
+ ../filesys/openfile.h ../threads/scheduler.h ../threads/list.h \
+ ../machine/interrupt.h ../machine/stats.h ../machine/timer.h \
+ ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 addrspace.o: ../userprog/addrspace.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/system.h ../threads/copyright.h \
  ../threads/utility.h ../threads/bool.h ../machine/sysdep.h \
@@ -369,11 +714,40 @@ addrspace.o: ../userprog/addrspace.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
- ../userprog/addrspace.h ../bin/noff.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../userprog/addrspace.h \
+ ../bin/noff.h
 bitmap.o: ../userprog/bitmap.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../userprog/bitmap.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -405,11 +779,39 @@ exception.o: ../userprog/exception.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
- ../userprog/syscall.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../userprog/syscall.h
 progtest.o: ../userprog/progtest.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/system.h ../threads/copyright.h \
  ../threads/utility.h ../threads/bool.h ../machine/sysdep.h \
@@ -426,11 +828,40 @@ progtest.o: ../userprog/progtest.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
- ../machine/console.h ../userprog/addrspace.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../machine/console.h \
+ ../userprog/addrspace.h
 console.o: ../machine/console.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/console.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -447,11 +878,39 @@ console.o: ../machine/console.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/system.h ../threads/utility.h \
  ../threads/thread.h ../machine/machine.h ../machine/translate.h \
- ../machine/disk.h ../userprog/addrspace.h ../filesys/filesys.h \
- ../filesys/openfile.h ../threads/scheduler.h ../threads/list.h \
- ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
- ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
- ../threads/synch.h
+ ../machine/disk.h ../userprog/bitmap.h ../filesys/openfile.h \
+ ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
+ ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
+ ../threads/list.h ../machine/stats.h ../machine/timer.h \
+ ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 machine.o: ../machine/machine.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/machine.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -467,12 +926,40 @@ machine.o: ../machine/machine.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../machine/translate.h ../machine/disk.h \
- ../threads/system.h ../threads/utility.h ../threads/thread.h \
- ../machine/machine.h ../userprog/addrspace.h ../filesys/filesys.h \
- ../filesys/openfile.h ../threads/scheduler.h ../threads/list.h \
- ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
- ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
- ../threads/synch.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../threads/system.h \
+ ../threads/utility.h ../threads/thread.h ../machine/machine.h \
+ ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
+ ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
+ ../threads/list.h ../machine/stats.h ../machine/timer.h \
+ ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 mipssim.o: ../machine/mipssim.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/machine.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -488,12 +975,41 @@ mipssim.o: ../machine/mipssim.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../machine/translate.h ../machine/disk.h \
- ../machine/mipssim.h ../threads/system.h ../threads/utility.h \
- ../threads/thread.h ../machine/machine.h ../userprog/addrspace.h \
- ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
- ../threads/list.h ../machine/interrupt.h ../threads/list.h \
- ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
- ../machine/disk.h ../threads/synch.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../machine/mipssim.h \
+ ../threads/system.h ../threads/utility.h ../threads/thread.h \
+ ../machine/machine.h ../userprog/addrspace.h ../filesys/filesys.h \
+ ../filesys/openfile.h ../threads/scheduler.h ../threads/list.h \
+ ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
+ ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
+ ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 translate.o: ../machine/translate.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/machine.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -509,12 +1025,40 @@ translate.o: ../machine/translate.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/system.h ../threads/utility.h ../threads/thread.h \
- ../machine/machine.h ../threads/scheduler.h ../threads/list.h \
- ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
- ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
- ../threads/synch.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/system.h \
+ ../threads/utility.h ../threads/thread.h ../machine/machine.h \
+ ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
+ ../threads/list.h ../machine/stats.h ../machine/timer.h \
+ ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 directory.o: ../filesys/directory.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../threads/utility.h ../threads/copyright.h \
  ../threads/bool.h ../machine/sysdep.h /usr/include/stdio.h \
@@ -547,11 +1091,39 @@ filehdr.o: ../filesys/filehdr.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/thread.h ../machine/machine.h \
  ../threads/utility.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h \
- ../filesys/filehdr.h ../userprog/bitmap.h ../filesys/openfile.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../filesys/filehdr.h
 filesys.o: ../filesys/filesys.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/disk.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -585,10 +1157,39 @@ fstest.o: ../filesys/fstest.cc /usr/include/stdc-predef.h \
  /usr/include/xlocale.h ../filesys/filesys.h ../filesys/openfile.h \
  ../threads/system.h ../threads/utility.h ../threads/thread.h \
  ../machine/machine.h ../machine/translate.h ../machine/disk.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../threads/scheduler.h \
- ../threads/list.h ../machine/interrupt.h ../threads/list.h \
- ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
- ../machine/disk.h ../threads/synch.h ../threads/thread.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../threads/scheduler.h ../threads/list.h \
+ ../machine/interrupt.h ../threads/list.h ../machine/stats.h \
+ ../machine/timer.h ../filesys/synchdisk.h ../machine/disk.h \
+ ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc ../threads/thread.h
 openfile.o: ../filesys/openfile.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../filesys/filehdr.h ../machine/disk.h \
  ../threads/utility.h ../threads/copyright.h ../threads/bool.h \
@@ -609,7 +1210,35 @@ openfile.o: ../filesys/openfile.cc /usr/include/stdc-predef.h \
  ../machine/disk.h ../userprog/addrspace.h ../filesys/filesys.h \
  ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
  ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../threads/synch.h
+ ../filesys/synchdisk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 synchdisk.o: ../filesys/synchdisk.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../filesys/synchdisk.h ../machine/disk.h \
  ../threads/utility.h ../threads/copyright.h ../threads/bool.h \
@@ -626,8 +1255,37 @@ synchdisk.o: ../filesys/synchdisk.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/synch.h ../threads/thread.h \
  ../threads/utility.h ../machine/machine.h ../machine/translate.h \
- ../machine/disk.h ../userprog/addrspace.h ../filesys/filesys.h \
- ../filesys/openfile.h ../threads/list.h
+ ../machine/disk.h ../userprog/bitmap.h ../filesys/openfile.h \
+ ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
+ ../threads/list.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 disk.o: ../machine/disk.cc /usr/include/stdc-predef.h \
  ../threads/copyright.h ../machine/disk.h ../threads/utility.h \
  ../threads/copyright.h ../threads/bool.h ../machine/sysdep.h \
@@ -644,10 +1302,39 @@ disk.o: ../machine/disk.cc /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/xlocale.h ../threads/system.h ../threads/utility.h \
  ../threads/thread.h ../machine/machine.h ../machine/translate.h \
- ../userprog/addrspace.h ../filesys/filesys.h ../filesys/openfile.h \
- ../threads/scheduler.h ../threads/list.h ../machine/interrupt.h \
- ../threads/list.h ../machine/stats.h ../machine/timer.h \
- ../filesys/synchdisk.h ../machine/disk.h ../threads/synch.h
+ ../userprog/bitmap.h ../filesys/openfile.h ../userprog/addrspace.h \
+ ../filesys/filesys.h ../filesys/openfile.h ../threads/scheduler.h \
+ ../threads/list.h ../machine/interrupt.h ../threads/list.h \
+ ../machine/stats.h ../machine/timer.h ../filesys/synchdisk.h \
+ ../machine/disk.h ../threads/synch.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc
 # DEPENDENCIES MUST END AT END OF FILE
 # IF YOU PUT STUFF HERE IT WILL GO AWAY
 # see make depend above

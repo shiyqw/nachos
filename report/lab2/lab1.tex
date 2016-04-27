@@ -1,5 +1,9 @@
-\documentclass{ctexart}
+\documentclass[nofonts]{ctexart}
 %\CTEXsetup[name={Step ,},number={\arabic{chapter}}]{chapter}
+
+\setCJKmainfont[ItalicFont={AR PL UKai CN}]{AR PL UMing CN} %设置中文默认字体
+\setCJKsansfont{WenQuanYi Micro Hei} %设置文泉驿正黑字体作为中文无衬线字体
+\setCJKmonofont{WenQuanYi Micro Hei Mono} %设置文泉驿等宽正黑字体作为中文打字机字体
 
 \usepackage{amsmath}
 %\usepackage{wallpaper}
@@ -43,11 +47,11 @@ captionpos=b
 \begin{document}
 
 \title{%
-\vspace{-30mm}\heiti\Huge NachOS Lab2 实习报告 \vspace{10mm}}
+\vspace{-30mm}\Huge NachOS Lab2 实习报告 \vspace{10mm}}
 \author{%
 \Large 史杨勍惟 
 \\[10mm] 1200012741 信息科学技术学院}
-\date{2015,03,23}
+\date{2016,04,12}
 
 \maketitle
 
@@ -74,8 +78,7 @@ Y & Y & Y & Y \\\hline
 \end{table}
 \section{完成情况}
 \subsection*{Exercise 1}
-\textbf{调研Linux或Windows中采用的进程调度算法}
-
+\textbf{调研Linux或Windows中采用的进程调度算法}\\
 我主要调研的是Linux的进程调度算法，因为在我的实现中加入了简单的类似Linux的调度算法。Linux的调度算法为CFS算法，其主要设计思想是：
 
 Linux把所有要调度的进程在一个进程周期先后调度上。把进程的优先级看成两个不同的维度，一个是这个进程在单位调度周期中运行的时间，另一个则是这个进程在这个调度周期中被分配上CPU的顺序。其中，
@@ -88,8 +91,7 @@ Linux内核使用红黑树维护所有需要被调度上CPU的进程集合。其
 Linux的调度算法还有很多复杂的细节，这里不详述了。把CFS算法完全移植到Nachos上是十分有难度的，不过我们可以借鉴上述的主要思想，为Nachos设计一个类似于CFS的调度算法。
 
 \subsection*{Exercise 2}
-\textbf{仔细阅读代码，理解Nachos现有的线程机制}
-
+\textbf{仔细阅读代码，理解Nachos现有的线程机制}\\
 Nachos现有的线程机制是FIFO。调度器Scheduler维护了一个就绪队列。每次Fork和Yield都会将相应的线程移动到这个队列的尾部，这就是一个简单的FIFO的调度算法。
 
 当然Nachos有时间片的机制，只不过在常规执行下是没有激活的。使用-rs命令行参数可以激活。在时间片机制下，main.cc初始化了一个全局的timer计时器，并且为其提供了相应的中断处理程序。观察timer.h和timer.cc我们可以发现它注册一个时钟中断处理程序，每次时钟中断发生后进入这个程序。这个处理程序会注册下一个时钟中断并且执行构造函数中用户给定的另一个程序。在main.cc中，这个程序就是激活yieldOnReturn使得每一次时钟中断发生后都会进入当前线程的Yield，使其让出CPU留给下一个线程。
@@ -97,7 +99,7 @@ Nachos现有的线程机制是FIFO。调度器Scheduler维护了一个就绪队�
 另外Nachos的一个时钟是由中断的一次开关触发的，这点坑了我好长的时间，后面会提及。
 
 \subsection*{Exercise 3}
-\textbf{线程算法调度扩展，实现基于优先级的抢占式调度算法}
+\textbf{线程算法调度扩展，实现基于优先级的抢占式调度算法}\\
 从底层设计上来看，基于优先级的抢占式调度算法和FIFO最大的不同在于两点:优先级和抢占。
 
 在thread.h和thread.cc中我加入并维护了priority成员，表示线程的优先级。其构造由可缺省的构造函数参数传入（C++默认参数机制）。
@@ -200,7 +202,7 @@ SimpleThread(int which)
 我们可以看到这样的结果就是根据优先级两个高优先级的程序会相互交替执行。仔细分析我们会发现这种情况就是基于优先级的抢占式调度算法的普遍情况。
 
 \subsection*{Exercise 4}
-\textbf{增加全局线程管理机制}
+\textbf{增加全局线程管理机制}\\
 我由拓展设计了两个不同的调度算法，分别是时间片轮转和简单CFS的调度算法。实现这两个算法主要的涉及点是：
 \begin{itemize}
 \item 对于RR算法，我们只需要初始化一个timer并激活YieldOnReturn即可。这一点可以和原来的rs模式复用。

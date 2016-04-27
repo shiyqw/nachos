@@ -132,6 +132,7 @@ class Thread {
     void RestoreUserState();		// restore user-level register state
 
     AddrSpace *space;			// User code this thread is running.
+    void InitUserReg();
 #endif
   private:
     int priority;

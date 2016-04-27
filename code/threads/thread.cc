@@ -404,6 +404,15 @@ Thread::RestoreUserState()
     for (int i = 0; i < NumTotalRegs; i++)
 	machine->WriteRegister(i, userRegisters[i]);
 }
+
+void Thread::InitUserReg() {
+    for (int i = 0; i < NumTotalRegs; ++i) {
+        userRegisters[i] = 0;
+        userRegisters[PCReg] = 0;
+        userRegisters[NextPCReg] = 4;
+        userRegisters[StackReg] = space->getStackReg();
+    }
+}
 #endif
 
 int Thread::getKey() {
@@ -413,3 +422,4 @@ int Thread::getKey() {
         return (currentTick / priority);
     }
 }
+

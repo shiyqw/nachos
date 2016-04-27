@@ -87,6 +87,15 @@ main(int argc, char **argv)
     DEBUG('t', "Entering main");
     (void) Initialize(argc, argv);
     
+#ifdef USER_PROGRAM
+            printf("start a user program\n");
+#endif
+#ifdef THREADS
+            printf("hahathread\n");
+#endif
+#ifdef FILESYS
+            printf("hahafile\n");
+#endif
 #ifdef THREADS
     for (argc--, argv++; argc > 0; argc -= argCount, argv += argCount) {
       argCount = 1;
@@ -109,6 +118,7 @@ main(int argc, char **argv)
         if (!strcmp(*argv, "-z"))               // print copyright
             printf (copyright);
 #ifdef USER_PROGRAM
+            printf("start a user program\n");
         if (!strcmp(*argv, "-x")) {        	// run a user program
 	    ASSERT(argc > 1);
             StartProcess(*(argv + 1));
